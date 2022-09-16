@@ -1,4 +1,5 @@
 title: 欸欸的星座笔记
 theme: minima
+show_excerpts: true
 titles_from_headings:
   strip_title: true
