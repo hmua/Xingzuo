@@ -1,6 +1,6 @@
 title: 欸欸的星座笔记
 lang: zh-Hans
-remote_theme: jekyll/minima
+remote_theme: minima
 show_excerpts: true
 titles_from_headings:
   strip_title: true
