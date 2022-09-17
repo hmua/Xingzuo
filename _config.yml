@@ -8,4 +8,3 @@ permalink: pretty
 markdown: kramdown
 kramdown:
   header_offset: 1
-  remove_line_breaks_for_cjk: true
