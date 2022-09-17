@@ -4,4 +4,4 @@ show_excerpts: true
 titles_from_headings:
   strip_title: true
 permalink: pretty
-header_offset: 2
+header_offset: 3
