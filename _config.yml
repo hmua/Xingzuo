@@ -4,5 +4,5 @@ show_excerpts: true
 titles_from_headings:
   strip_title: true
 permalink: pretty
+markdown: kramdown
 header_offset: 3
-
