@@ -6,4 +6,4 @@ titles_from_headings:
 permalink: pretty
 markdown: kramdown
 kramdown:
-  header_offset: 3
+  header_offset: 1
