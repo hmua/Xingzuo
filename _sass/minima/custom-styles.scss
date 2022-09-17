@@ -1,4 +1,8 @@
-p:(en) {
+p:lang(en) {
   color: red !important;
   background: blue !important;
+}
+p:lang(zh) {
+  color: red !important;
+  background: yellow !important;
 }
