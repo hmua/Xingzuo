@@ -8,3 +8,4 @@ permalink: pretty
 markdown: kramdown
 kramdown:
   header_offset: 1
+  parse_block_html: true #支持details
