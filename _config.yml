@@ -1,6 +1,6 @@
 title: 欸欸在写星座
 lang: zh-Hans
-remote_theme: hmua/customized-minima-theme
+remote_theme: hmua/minima
 show_excerpts: true
 titles_from_headings:
   strip_title: true
