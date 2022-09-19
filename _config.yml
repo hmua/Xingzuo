@@ -16,3 +16,10 @@ titles_from_headings:
 #
 remote_theme: hmua/minima
 permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
