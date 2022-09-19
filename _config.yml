@@ -5,7 +5,7 @@ lang: zh-Hans
 # Markdown，正文排版
 markdown: kramdown
 kramdown:
-  parser: gfm
+  input: GFM
   header_offset: 1
   
 # Markdown之外，目录、首页、正文外格式
