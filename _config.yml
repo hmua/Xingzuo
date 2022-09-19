@@ -3,7 +3,7 @@ description: 欸欸，在思考星座
 lang: zh-Hans
 
 # Markdown，正文排版
-markdown: kramdown
+# markdown: kramdown
 kramdown:
   input: GFM
   header_offset: 1
