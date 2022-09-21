@@ -3,7 +3,7 @@ description: 欸欸，在思考星座
 lang: zh-Hans
 
 # Markdown，正文排版
-markdown: kramdown
+#markdown: kramdown
   
 # Markdown之外，目录、首页、正文外格式
 show_excerpts: true
