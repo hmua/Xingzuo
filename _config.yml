@@ -1,7 +1,7 @@
 title: 星座演进说
 description: 欸欸，在思考星座
 lang: zh-Hans
-timezone: Asia/Beijing
+timezone: Asia/Shanghai
 
 # Markdown，正文排版
 #markdown: kramdown
@@ -14,6 +14,14 @@ titles_from_headings:
 #
 remote_theme: hmua/minima
 permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      types: "posts"
+    values:
+      timezone: Asia/Shanghai
 
 plugins:
   - jekyll-feed
