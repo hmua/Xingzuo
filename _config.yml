@@ -15,7 +15,7 @@ titles_from_headings:
 remote_theme: hmua/minima
 permalink: pretty
 
-export TZ="Asia/Shanghai"
+export TZ: "Asia/Shanghai"
 defaults:
   -
     scope:
