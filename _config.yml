@@ -15,15 +15,6 @@ titles_from_headings:
 remote_theme: hmua/minima
 permalink: pretty
 
-#export TZ: "Asia/Shanghai"
-defaults:
-  -
-    scope:
-      path: ""
-      types: "posts"
-    values:
-      #timezone: Asia/Shanghai
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
