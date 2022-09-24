@@ -20,3 +20,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  
+prose:
+  siteurl: "http://hmua.github.io"
+  
