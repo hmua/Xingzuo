@@ -1,4 +1,4 @@
-# 用JAVASCRIPT
+## 用JAVASCRIPT
 
 <script>
 var a=[..."羊牛双蟹狮处秤蝎射摩瓶鱼"]
