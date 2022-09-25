@@ -25,5 +25,5 @@ Prose会加“published:false”这个front matter，
 如果文件名中的日期先于服务器时间就会不发布，
 gh-pages的发布结果是通过，
 但查具体记录就会看到因为未来日期而跳过了。
-解决方法是在_config.yml中指定时区
+解决方法是在_config.yml中指定时区：
 “timezone: Asia/Shanghai”。
