@@ -27,3 +27,16 @@ gh-pages的发布结果是通过，
 但查具体记录就会看到因为未来日期而跳过了。
 解决方法是在_config.yml中指定时区：
 “timezone: Asia/Shanghai”。
+
+其他查到的解决方法，备查，未测试
+```
+export TZ: "Asia/Shanghai"
+defaults:
+  -
+    scope:
+      path: ""
+      types: "posts"
+    values:
+      timezone: Asia/Shangha
+```
+
