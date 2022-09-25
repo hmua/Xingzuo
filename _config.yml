@@ -1,6 +1,7 @@
 title: 星座演进说
 description: 欸欸，在思考星座
 lang: zh-Hans
+timezone: Asia/Shanghai
 
 # Markdown，正文排版
 #markdown: kramdown
