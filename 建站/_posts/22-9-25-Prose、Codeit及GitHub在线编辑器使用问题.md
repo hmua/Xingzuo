@@ -45,3 +45,12 @@ defaults:
     values:
       timezone: Asia/Shangha
 ```
+
+# GitHub在线编辑器问题
+## 语音输入会错乱
+具体是在iPadOS 14.6，Safari中，
+百度输入法11.4.3.3。
+语音输入后会删除前面几个字符，
+语音输入的内容还会字序颠倒。
+
+可以在苹果Notes中输入之后整个粘贴进来。
