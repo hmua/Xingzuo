@@ -7,7 +7,7 @@ timezone: Asia/Shanghai
 #markdown: kramdown
   
 # Markdown之外，目录、首页、正文外格式
-show_excerpts: true
+show_excerpts: true#首页显示节选
 titles_from_headings:
   strip_title: true
   
