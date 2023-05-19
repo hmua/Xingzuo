@@ -1,5 +1,7 @@
 title: 星座演进说
 description: 欸欸，在思考星座
+author:
+  name: 欸欸
 lang: zh-Hans
 timezone: Asia/Shanghai
 
@@ -10,10 +12,10 @@ timezone: Asia/Shanghai
 show_excerpts: true#首页显示节选
 titles_from_headings:
   strip_title: true
-  
+
 #
-remote_theme: hmua/minima
-permalink: pretty
+remote_theme: hmua/Customized-Minima
+permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
 
 plugins:
   - jekyll-feed
