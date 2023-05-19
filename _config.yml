@@ -5,6 +5,10 @@ author:
 lang: zh-Hans
 timezone: Asia/Shanghai
 
+#
+remote_theme: hmua/Customized-Minima
+permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
+
 # Markdown，正文排版
 #markdown: kramdown
   
@@ -13,16 +17,10 @@ show_excerpts: true#首页显示节选
 titles_from_headings:
   strip_title: true
 
-#
-remote_theme: hmua/Customized-Minima
-permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-spaceship
+minima:
+  social_links:
+    - { platform: github,         user_url: "https://github.com" }
+    - { platform: Dependency versions,         user_url: "https://pages.github.com/versions" }
   
 prose:
   siteurl: "http://hmua.github.io"
@@ -33,5 +31,3 @@ prose:
           element: "checkbox"
           label: "published"
           value: "true"
-          
-  
