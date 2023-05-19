@@ -2,8 +2,9 @@ title: 星座演进说
 description: 在思考星座
 author:
   name: 欸欸
-lang: zh-Hans #会在<html>加lang，和CSS搭配实现中文诗词排版（https://hmua.github.io/xz/排版/2022/9/17/诗词风格排版）
-timezone: Asia/Shanghai
+
+lang: zh-Hans #会在<html>加lang，和CSS搭配实现中文诗词排版（https://hmua.github.io/排版/2022/9/17/诗词风格排版）
+timezone: Asia/Shanghai #修正ghpages服务器时区比国内晚导致不马上发布（https://hmua.github.io/建站/2022/9/25/在线编辑器使用问题）
 
 #
 remote_theme: hmua/Customized-Minima
@@ -15,7 +16,7 @@ permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前�
 # Markdown之外，目录、首页、正文外格式
 show_excerpts: true#首页显示节选
 titles_from_headings:
-  strip_title: true
+  #strip_title: true
 
 minima:
   social_links:
