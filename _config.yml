@@ -2,7 +2,7 @@ title: 星座演进说
 description: 在思考星座
 author:
   name: 欸欸
-lang: zh-Hans
+lang: zh-Hans #会在<html>加lang，和CSS搭配实现中文诗词排版（https://hmua.github.io/xz/排版/2022/9/17/诗词风格排版）
 timezone: Asia/Shanghai
 
 #
@@ -20,7 +20,22 @@ titles_from_headings:
 minima:
   social_links:
     - { platform: github,         user_url: "https://github.com" }
-    - { platform: Dependency versions,         user_url: "https://pages.github.com/versions" }
+    - { platform: github,         user_url: "https://pages.github.com/versions" }
+    - { platform: devto,          user_url: "https://dev.to/jekyll" }
+    - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+  #   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+  #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
   
 prose:
   siteurl: "http://hmua.github.io"
