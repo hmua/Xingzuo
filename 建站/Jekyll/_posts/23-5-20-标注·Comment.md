@@ -2,7 +2,7 @@
 标注或注销一段内容，有几种标记语法。
 
 1. Liquid：`{% comment %}...{% endcomment %}`
-2. Liquid行内：`{% # ... %}`
+2. Liquid行内：`{%raw%}{% # ... %}{%endraw%}`
 3. kramdown：`{::comment}...{:/}`
 4. XML：`<!-- ... -->
 
