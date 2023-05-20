@@ -12,14 +12,17 @@ remote_theme: hmua/Customized-Minima
 permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
 #permalink: pretty
 
-# Markdown，正文排版
+#GFM支持Autolinking
+#文档写默认就是GFM——https://jekyllrb.com/docs/configuration/markdown
+#但实际默认没有Autolinking，声明后就支持
 #markdown: kramdown
-markdown: GFM
+markdown: GFM #
   
-# Markdown之外，目录、首页、正文外格式
+#模板（主题模板）中使用
 show_excerpts: true#首页显示节选
+
 titles_from_headings:
-  #strip_title: true
+  #strip_title: true #这条什么作用忘了
 
 minima:
   social_links:
