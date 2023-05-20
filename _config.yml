@@ -5,10 +5,12 @@ author:
 
 lang: zh-Hans #会在<html>加lang，和CSS搭配实现中文诗词排版（https://hmua.github.io/排版/2022/9/17/诗词风格排版）
 timezone: Asia/Shanghai #修正ghpages服务器时区比国内晚导致不马上发布（https://hmua.github.io/建站/2022/9/25/在线编辑器使用问题）
+source: 星座
 
 #
 remote_theme: hmua/Customized-Minima
-permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
+#permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
+permalink: pretty
 
 # Markdown，正文排版
 #markdown: kramdown
@@ -20,7 +22,6 @@ titles_from_headings:
 
 minima:
   social_links:
-    - { platform: github,         user_url: "https://github.com" }
     - { platform: github,         user_url: "https://pages.github.com/versions" }
     - { platform: devto,          user_url: "https://dev.to/jekyll" }
     - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
