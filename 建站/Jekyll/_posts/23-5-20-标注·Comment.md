@@ -10,14 +10,9 @@
 Liquid语法是最啰嗦的，啰嗦到不像注销语法，
 但也是最可靠的，一定会有效；
 Liquid行内语法是最简练的，
-但GhP目前使用的Liquid 4.0.4版本不支持；
+但需要Liquid 5.4，GhP目前4.0.4版本不支持；
 kramdown在GFM中则不能使用；
 XML语法会保留到HTML结果中，
 虽然不会显示出来，但很笨……
 
 ##### 测试
-{% liquid
-  # this is a comment
-  assign topic = 'Learning about comments!'
-  echo topic
-%}
