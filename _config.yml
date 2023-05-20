@@ -5,7 +5,7 @@ author:
 
 lang: zh-Hans #会在<html>加lang，和CSS搭配实现中文诗词排版（https://hmua.github.io/排版/2022/9/17/诗词风格排版）
 timezone: Asia/Shanghai #修正ghpages服务器时区比国内晚导致不马上发布（https://hmua.github.io/建站/2022/9/25/在线编辑器使用问题）
-source: 星座
+#source: 星座 #在StackOverflow上看到的写法，测试后无效，可能缺什么条件
 
 #
 remote_theme: hmua/Customized-Minima
@@ -23,7 +23,7 @@ titles_from_headings:
 minima:
   social_links:
     - { platform: github,         user_url: "https://github.com" }
-    - { platform: devto,user_url: "https://pages.github.com/versions" }
+    - { platform: devto, user_url: "https://pages.github.com/versions" }
     - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
@@ -38,7 +38,7 @@ minima:
   #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
   #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
   
-prose:
+prose: #用Prose.io时经常自动加published:false的frontmatter，通过此设置避免
   siteurl: "http://hmua.github.io"
   metadata:
     _posts:
