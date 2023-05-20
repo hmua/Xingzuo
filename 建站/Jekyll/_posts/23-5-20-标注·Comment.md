@@ -1,0 +1,16 @@
+在GhP（GitHub Pages）、Jekyll模板中，
+标注或注销一段内容，有几种标记语法。
+
+1. Liquid：`{% comment %}...{% endcomment %}`
+2. Liquid行内：`{% # ... %}`
+3. kramdown：`{::comment}...{:/}`
+4. XML：`<!-- ... -->
+
+注意：并不是每种都可以，实际每种情况不同。
+Liquid语法是最啰嗦的，啰嗦到不像注销语法，
+但也是最可靠的，一定会有效；
+Liquid行内语法是最简练的，
+但GhP目前使用的Liquid 4.0.4版本不支持；
+kramdown在GFM中则不能使用；
+XML语法会保留到HTML结果中，
+虽然不会显示出来，但很笨……
