@@ -1,0 +1,6 @@
+考虑OL、UL应该用于正文中的列表，避免用于页面结构，
+想收集、整理一些站点是怎样做的。
+
+1. StackOverflow是每天使用最多，
+答案条目用的是div（.answer），
+答案下的评论则是用的ul（.comments-list）
