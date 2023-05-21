@@ -22,6 +22,7 @@ permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前�
 #GFM支持Autolinking
 #文档写默认就是GFM——https://jekyllrb.com/docs/configuration/markdown
 #但实际默认没有Autolinking，声明后就支持
+#更多记录在https://hmua.github.io/建站/jekyll/2023/5/21/kramdown和GFM设置的影响
 #markdown: kramdown
 markdown: GFM #
   
