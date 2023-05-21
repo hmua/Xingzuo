@@ -8,7 +8,7 @@ markdown: GFM
 ## 关于默认设置的问题
 文档写默认就是GFM，
 但实际默认没有Autolinking，声明后才支持，
-因此实际默认应该是kramdown。
+因此判断实际默认是kramdown。
 
 ## 自动链接
 GFM支持Autolinking。
