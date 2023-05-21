@@ -3,10 +3,12 @@
 >markdown: kramdown
 markdown: GFM
 
+## 自动链接
 GFM支持Autolinking
 文档写默认就是GFM
 但实际默认没有Autolinking，声明后就支持
 
+## 表格
 对表格格式也有一点影响。
 设为*kramdown*时最简练
 ```
