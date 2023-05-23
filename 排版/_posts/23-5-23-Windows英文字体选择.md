@@ -2,12 +2,14 @@
 
 ## 等线
 _（没有笔锋变化）_
+
 Arial 挺好 中规中矩 就是略散
 Calibri 间距大
 Corbel 非常接近Calibri 更轻
 Lucida Sans Unicode 太散
-Segoe UI Symbol 较散 粗体比Segoe UI太细 粗体不明显
-Tahoma、Verdana Pro
+Segoe UI 较散
+Segoe UI Symbol 太细太轻
+Tahoma、Verdana Pro 传统必选，略
 ## 标题风 角锐化
 Eras ITC 像Calibri 细
 Gill Sans Nova 夸张的长划 等线结合花体 大写字母宽 J又特别窄 感觉只适合大标题 中标题都不合适
