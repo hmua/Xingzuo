@@ -40,10 +40,9 @@ GFM支持Autolinking。
 
 ## 表格
 对表格格式也有一点影响。
-设为*kramdown*时最简练
-```
+设为kramdown时最简练
+`kramedown|GFM`
 kramedown|GFM
-```
 GFM则稍啰嗦
 头两行必须至少有如下内容
 表头也不能省略
