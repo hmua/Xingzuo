@@ -29,7 +29,10 @@ GFM支持Autolinking。
 当只考虑英文时，这应该是个严谨的设定；
 但这个设定被照搬至中文括号，是错误的。
 
-当设定“markdown: kramdown”时可以避免这个GFM的BUG。
+### 解决
+- 当设定“markdown: kramdown”时可以避免这个GFM的BUG；
+- 如果使用GFM也可以通过直接写HTML，非常方便地解决：
+  `中文<em>中文斜体</em>`
 
 ## 表格
 对表格格式也有一点影响。
