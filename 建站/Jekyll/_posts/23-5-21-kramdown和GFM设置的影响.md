@@ -1,4 +1,4 @@
-*_config.yml*中的设置，从[文档](https://jekyllrb.com/docs/configuration/markdown)看来还有更多的设置，
+“_config.yml”中的设置，从[文档](https://jekyllrb.com/docs/configuration/markdown)看来还有更多的设置，
 边尝试边记录。
 ```
 markdown: kramdown
