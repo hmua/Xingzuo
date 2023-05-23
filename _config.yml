@@ -19,8 +19,8 @@ remote_theme: hmua/Customized-Minima
 permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
 #permalink: pretty
 
-#对kramdown、GFM语法的选择，影响非常多而复杂，也没有人整理，只能自己边摸索边记录\
-https://github.com/hmua/hmua.github.io/blob/main/建站/Jekyll/_posts/23-5-21-kramdown和GFM设置的影响.md
+#对kramdown、GFM语法的选择，影响非常多而复杂，也没有人整理，只能自己边摸索边记录
+#https://github.com/hmua/hmua.github.io/blob/main/建站/Jekyll/_posts/23-5-21-kramdown和GFM设置的影响.md
 markdown: kramdown
 #markdown: GFM
 
