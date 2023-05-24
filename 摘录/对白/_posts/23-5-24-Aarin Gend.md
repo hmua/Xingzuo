@@ -1,5 +1,5 @@
 ---
-excerpt:Not at first, no. Not until I killed her.
+excerpt: Not at first, no. Not until I killed her.
 ---
 >Not at first, no. Not until I killed her.
 >
