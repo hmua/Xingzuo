@@ -12,6 +12,6 @@
 >
 >Though tears blurred my eyes, upon those words I ran her through. She died moments later, as we exchanged one... final kiss.
 >
->*——Neverwinter Nights ([Wiki](https://nwn.wiki/display/NWN1/Voicelines+and+dialog.tlk))*
+><cite>——Neverwinter Nights ([Wiki](https://nwn.wiki/display/NWN1/Voicelines+and+dialog.tlk))</cite>
 
 >_[什么是“桥本”？](https://baike.baidu.com/item/桥段/4473)_
