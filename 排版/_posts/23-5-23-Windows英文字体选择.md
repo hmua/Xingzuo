@@ -16,7 +16,7 @@ Corbel 非常接近Calibri 更轻
 Maiandra GD 像Calibri和Eras 加了些手写风格 适合做输入框
 ## 衬线
 Cambria
-Garamond 太细
+Garamond 太细，只有两个字重，不是太轻就是太重，字形还是好过其它
 MS Serif 中规中矩
 Sitka Banner 系列都很特别
 ## 花式
