@@ -1,4 +1,4 @@
-*——在x90HD上为谷歌网页搜索选合适的字体*
+*——在x90HD上为Google搜索选合适的字体*
 
 ## 等线*（没有笔锋变化）*
 Arial 挺好 中规中矩 就是略散
@@ -13,7 +13,7 @@ Eras ITC 像Calibri 细
 Gill Sans Nova 夸张的长划 等线结合花体 大写字母宽 J又特别窄 感觉只适合大标题 中标题都不合适
 Trebuchet MS 死板
 ## 非等线
-Candara 多年挚爱！
+Candara 最爱！
 Maiandra GD 像Calibri和Eras 加了些手写风格 适合做输入框
 ## 衬线
 Cambria
