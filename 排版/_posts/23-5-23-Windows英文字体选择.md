@@ -13,7 +13,7 @@ Eras ITC 像Calibri 细
 Gill Sans Nova 夸张的长划 等线结合花体 大写字母宽 J又特别窄 感觉只适合大标题 中标题都不合适
 Trebuchet MS 死板
 ## 笔锋
-Candara 最爱！
+Candara：最爱。代码、文本编辑，符号优化；
 Maiandra GD 像Calibri和Eras 加了些手写风格 适合做输入框
 ## 衬线
 Cambria
