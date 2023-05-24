@@ -1,9 +1,8 @@
 *——在x90HD上为Google搜索选合适的字体*
 
-## 去笔锋
+## 黑体，去笔锋
 Arial 挺好 中规中矩 就是略散
 Calibri 间距大
-Corbel 非常接近Calibri 更轻
 Lucida Sans Unicode 太散
 Segoe UI 较散
 Segoe UI Symbol 太细太轻
@@ -12,8 +11,9 @@ Tahoma、Verdana Pro 传统必选，略
 Eras ITC 像Calibri 细
 Gill Sans Nova 夸张的长划 等线结合花体 大写字母宽 J又特别窄 感觉只适合大标题 中标题都不合适
 Trebuchet MS 死板
-## 笔锋
+## 有笔锋、有手写感
 Candara：最爱。代码、文本编辑，符号优化；
+Corbel 非常接近Calibri 更轻
 Maiandra GD 像Calibri和Eras 加了些手写风格 适合做输入框
 ## 衬线
 Cambria
