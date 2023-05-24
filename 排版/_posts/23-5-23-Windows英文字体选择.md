@@ -1,6 +1,6 @@
 *——在x90HD上为Google搜索选合适的字体*
 
-## 等线：黑体、去笔锋
+## 等线——黑体，去笔锋
 Arial 挺好 中规中矩 就是略散
 Calibri 间距大
 Lucida Sans Unicode 太散
