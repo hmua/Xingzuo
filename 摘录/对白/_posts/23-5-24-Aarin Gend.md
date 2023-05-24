@@ -1,3 +1,6 @@
+---
+excerpt:Not at first, no. Not until I killed her.
+---
 >Not at first, no. Not until I killed her.
 >
 >Aye. I should have done it sooner, when I was first trusted enough to be alone in her presence... but I was too intrigued and foolish.
