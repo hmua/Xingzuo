@@ -28,7 +28,7 @@ markdown: kramdown
 show_excerpts: true #首页显示节选
 
 titles_from_headings:
-  #strip_title: true #这条什么作用忘了
+  #strip_title: true #这条什么作用忘了，好像是page标题会重复，现在只用post
 
 minima:
   social_links:
