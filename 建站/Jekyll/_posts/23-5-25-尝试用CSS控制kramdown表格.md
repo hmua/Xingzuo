@@ -10,7 +10,7 @@ _这里可以有个通栏……吗？_|
 </style>
 
 这|是|一个|小|表格
-_可以有右对齐的通栏……吗？_|
+_那可以有右侧对齐的通栏吗？_|
 <style>
 :last-child tr:nth-of-type(2) td{
 	text-align: right;
