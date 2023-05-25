@@ -10,20 +10,17 @@ _这里可以有个通栏……吗？_|
 :scope tr:nth-of-type(2) td:first-child { position: absolute }
 </style>
 
-<div>
-	
-这|是|一个|小|表格
-_那可以有右侧对齐的通栏吗？_|
+>这|是|一个|小|表格
+_这里可以有个通栏……吗？_|
 这|是|表格|的|另一行
-
-<style>
+>
+><style>
 :scope tr:nth-of-type(2) td{
 	text-align: right;
 	width: 100%;
 	box-sizing: border-box;
 }
 </style>
-</div>
 
 #### 保留，测试用的
 
