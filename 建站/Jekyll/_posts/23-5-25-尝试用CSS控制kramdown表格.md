@@ -8,7 +8,7 @@ _这里可以有个通栏……吗？_|
 ><style>
 :scope tr:nth-of-type(2) td { border: 0 }
 :scope tr:nth-of-type(2) td:first-child { position: absolute }
-</style>
+></style>
 
 >这|是|一个|小|表格
 _这里可以有个通栏……吗？_|
@@ -20,7 +20,7 @@ _这里可以有个通栏……吗？_|
 	width: 100%;
 	box-sizing: border-box;
 }
-</style>
+></style>
 
 #### 保留，测试用的
 
