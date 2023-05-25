@@ -29,8 +29,6 @@ show_excerpts: true #首页显示节选
 
 titles_from_headings:
   #strip_title: true #这条什么作用忘了
-plugins:
-  - jekyll-feed
 
 minima:
   social_links:
