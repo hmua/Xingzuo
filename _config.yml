@@ -31,10 +31,6 @@ titles_from_headings:
   #strip_title: true #这条什么作用忘了
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-spaceship
 
 minima:
   social_links:
