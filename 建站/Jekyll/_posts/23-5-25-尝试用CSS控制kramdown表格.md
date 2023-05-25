@@ -15,10 +15,13 @@ _那可以有右侧对齐的通栏吗？_|
 {:.t2}
 
 <style>
-.t2 tr:nth-of-type(2) td{
+.t2 tr:nth-of-type(2) { position: relative }
+.t2 tr:nth-of-type(2) td { border: 0 }
+.t2 tr:nth-of-type(2) td:first-child{
+    position: absolute;
 	text-align: right;
-	width: 100%;
-	box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
 }
 </style>
 
