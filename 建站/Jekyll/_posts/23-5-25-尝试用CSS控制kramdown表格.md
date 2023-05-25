@@ -5,7 +5,7 @@ kramdown对表格的支持非常有限，
 行中省略的格会自动补HTML。
 ```
 这|是|一个|小|表格
-_这里可以有个通栏……吗？_|
+*这行会自动补齐HTML*|
 这|是|表格|的|另一行
 ```
 
@@ -14,7 +14,6 @@ _这里可以有个通栏……吗？_|
 这|是|一个|小|表格
 _这里可以有个通栏……吗？_|
 {:.t1}
-
 <style>
 .t1 tr:nth-of-type(2) td { border: 0 }
 .t1 tr:nth-of-type(2) td:first-child { position: absolute }
@@ -23,7 +22,6 @@ _这里可以有个通栏……吗？_|
 这|是|一个|小|表格
 _那可以有右侧对齐的通栏吗？_|
 {:.t2}
-
 <style>
 .t2 tr:nth-of-type(2) { position: relative }
 .t2 tr:nth-of-type(2) td { border: 0 }
@@ -34,7 +32,7 @@ _那可以有右侧对齐的通栏吗？_|
     box-sizing: border-box;
 }
 </style>
-
+<!--
 #### 保留，测试用的
 
 这|是|一个|小|表格
@@ -44,3 +42,4 @@ _这里可以有个通栏……吗？_|
 <style>
 	.t1 tr:nth-of-type(2) td{color:red}
 </style>
+-->
