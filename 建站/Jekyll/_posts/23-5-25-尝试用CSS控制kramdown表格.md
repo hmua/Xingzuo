@@ -3,7 +3,8 @@
 这|是|表格|的|另一行
 
 <style>
-	:last-child tr:nth-of-type(2) td{color:green}
+	:last-child tr:nth-of-type(2) td { border: 0 }
+	:last-child tr:nth-of-type(2) td:first-child { position: absolute }
 </style>
 
 这|是|一个|小|表格
