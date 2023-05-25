@@ -7,7 +7,7 @@ kramdown对表格的支持非常有限，
 _这里可以有个通栏……吗？_|
 这|是|表格|的|另一行
 
-<style>
+<style scoped>
 :scope tr:nth-of-type(2) td { border: 0 }
 :scope tr:nth-of-type(2) td:first-child { position: absolute }
 </style>
@@ -19,7 +19,7 @@ _这里可以有个通栏……吗？_|
 _那可以有右侧对齐的通栏吗？_|
 这|是|表格|的|另一行
 
-<style>
+<style scoped>
 :scope tr:nth-of-type(2) td{
 	text-align: right;
 	width: 100%;
