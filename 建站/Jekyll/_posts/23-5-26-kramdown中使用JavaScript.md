@@ -1,9 +1,9 @@
 
 
 <script>
-	let a=document.currentScript.parentNode
+	const a=document.currentScript.parentNode
 	a.insertAdjacentHTML('beforeEnd', '<input />')
-	let a=a.lastChild
+	const a=a.lastChild
 	alert(a)
 	console.log(a)
 </script>
