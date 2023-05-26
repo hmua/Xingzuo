@@ -1,7 +1,7 @@
 
 
 测试输入：
-{-::nomarkdown-}
+{::-nomarkdown-}
 <script>
 	a=document.currentScript.parentNode
 	a.insertAdjacentHTML('beforeEnd','<input />')
@@ -10,4 +10,4 @@
 		console.log(e.target.value)
 	}
 </script>
-{-:/-}
+{:/}
