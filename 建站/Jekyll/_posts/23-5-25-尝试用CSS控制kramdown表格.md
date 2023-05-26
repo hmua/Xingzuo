@@ -15,8 +15,8 @@ _这里可以有个通栏……吗？_|
 _那可以有右侧对齐的通栏吗？_|
 {:.t2}
 <style>
-.t2 tr:nth-of-type(2) { position: relative }
 .t2 tr:nth-of-type(2) td { border: 0 }
+.t2 tr:nth-of-type(2) { position: relative }
 .t2 tr:nth-of-type(2) td:first-child{
     position: absolute;
 	text-align: right;
@@ -26,11 +26,15 @@ _那可以有右侧对齐的通栏吗？_|
 </style>
 
 这|是|一个|小|表格
-*可以合并吗？*|||不合并的
+*可以合并吗？*|||**合并啦！**||
 这|是|表格|的|另一行
 {:.t3}
 <style>
-	.t1 tr:nth-of-type(2) td{color:red}
+.t3 tr:nth-of-type(2) td { border: 0 }
+.t3 tr:nth-of-type(2) td:is(:first-child,:nth-child(4)){
+	position:absolute;
+	border-left:initial
+}
 </style>
 
 ## 细看kramdown生成表格
