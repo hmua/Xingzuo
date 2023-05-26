@@ -4,8 +4,7 @@ kramdown对表格的支持非常有限，
 ## 尝试
 
 这|是|一个|表格|演示的
-_这里可以有个通栏……吗？_|
-{:.t1}
+_这里可以有个通栏……吗？_|{:.t1}
 <style>
 .t1 tr:nth-of-type(2) td { border: 0 }
 .t1 tr:nth-of-type(2) td:first-child { position: absolute }
