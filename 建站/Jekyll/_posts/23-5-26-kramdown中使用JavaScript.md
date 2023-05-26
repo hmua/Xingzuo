@@ -4,7 +4,6 @@
 	a=document.currentScript.parentNode
 	a.insertAdjacentHTML('beforeEnd','<input />')
 	a.lastChild.oninput=()=>{
-		a.insertAdjacentHTML('beforeEnd','\n'+a.value)
-		console.log(e.target.value)
+		a.insertAdjacentHTML('beforeEnd','\n'+a.text)
 	}
 </script>{:/}
