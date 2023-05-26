@@ -29,11 +29,12 @@ _那可以有右对齐通栏吗？_|
 *可以合并三格吗？*|||*再合并两格吧！*
 {:.t3}
 <style>
-.t3 tr:nth-of-type(2) td { border: 0 }
 .t3 tr:nth-of-type(2) td:is(:first-child,:nth-child(4)){
 	position:absolute;
 	border-left:initial
 }
+.t3 tr:nth-of-type(2) td{border-width: 0}
+.t3 tr:nth-of-type(2) td:nth-child(3){border-right-width: thin}
 </style>
 
 ## 细看kramdown生成表格
