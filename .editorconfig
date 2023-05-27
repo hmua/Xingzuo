@@ -1,7 +1,11 @@
-[*.yml]
-indent_style = space
-indent_size = 2
+;应该对顺序有要求的；
+;但顺序和直觉的相反，
+;小的，先匹配的在下，统配的在上
 
 [*]
 indent_style = tab
 indent_size = 4
+
+[*.yml]
+indent_style = space
+indent_size = 2
