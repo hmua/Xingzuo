@@ -7,6 +7,9 @@ FULLWIDTH BROKEN BAR|U+FFE4|FULLWIDTH BROKEN BAR|￤
 
 参考：[Unicode Characters: 02500 to 025FF](https://www.w3.org/TR/xml-entity-names/025.html)、[Unicode Character Search](https://www.fileformat.info/info/unicode/char/search.htm?q=¦)
 
+#### 太极、易经
+☯
+
 #### 星座
 
 
