@@ -9,7 +9,7 @@ defaults:
       type: posts
     values:
       description: 在思考星座
-  -	scope:
+  - scope:
       path: 摘录
     values:
       description: 摘录、存档
