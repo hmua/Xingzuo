@@ -1,15 +1,19 @@
 title: 星座演进说
 description: 谢谢我喜欢你
 author:
-  name: 欸欸
+	name: 欸欸
 
 defaults:
-  - scope:
-      path: "星座"
-      type: posts
-    values:
-      description: 在思考星座
-      
+	-	scope:
+			path: 星座
+			type: posts
+		values:
+			description: 在思考星座
+	-	scope:
+			path: 摘录
+		values:
+			description: 摘录、存档
+
 lang: zh-Hans #会在<html>加lang，和CSS搭配实现中文诗词排版（https://hmua.github.io/排版/2022/9/17/诗词风格排版）
 timezone: Asia/Shanghai #修正ghpages服务器时区比国内晚导致不马上发布（https://hmua.github.io/建站/2022/9/25/在线编辑器使用问题）
 #source: 星座 #在StackOverflow上看到的写法，测试后无效，可能缺什么条件
