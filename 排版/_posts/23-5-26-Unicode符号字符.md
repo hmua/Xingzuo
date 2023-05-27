@@ -2,6 +2,9 @@
 #### 相性
 `¦|¦¦¦|`
 
+BROKEN BAR|U+00A6|BROKEN BAR|¦
+FULLWIDTH BROKEN BAR|U+FFE4|FULLWIDTH BROKEN BAR|￤
+
 #### 星座
 
 
