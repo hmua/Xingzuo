@@ -1,14 +1,23 @@
 *Glyph、Emoji*
 #### 相性
+描述星座时需要表示相性，使用Unicode字符会非常方便
+```
 ¦|¦¦¦|
+```
 
 BROKEN BAR|U+00A6|BROKEN BAR|¦
 FULLWIDTH BROKEN BAR|U+FFE4|FULLWIDTH BROKEN BAR|￤
 
 参考：[Unicode Characters: 02500 to 025FF](https://www.w3.org/TR/xml-entity-names/025.html)、[Unicode Character Search](https://www.fileformat.info/info/unicode/char/search.htm?q=¦)
 
-#### 太极、易经
-☯
+## 借用八卦的相性符号
+八卦符号真的非常合适也非常方便，只是太容易造成误解
+
+⚊|⚋
+
+⚌|⚍|⚎|⚏
+
+☰|☱|☲|☳|☴|☵|☶|☷
 
 #### 星座
 
