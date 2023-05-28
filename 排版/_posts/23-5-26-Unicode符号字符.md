@@ -1,5 +1,5 @@
 *Glyph、Emoji*
-#### 相性
+## 相性
 描述星座时需要表示相性，使用Unicode字符会非常方便
 ```
 ¦|¦¦¦|
@@ -10,7 +10,7 @@ FULLWIDTH BROKEN BAR|U+FFE4|FULLWIDTH BROKEN BAR|￤
 
 参考：[Unicode Characters: 02500 to 025FF](https://www.w3.org/TR/xml-entity-names/025.html)、[Unicode Character Search](https://www.fileformat.info/info/unicode/char/search.htm?q=¦)
 
-## 借用八卦的相性符号
+### 借用八卦的相性符号
 八卦符号真的非常合适也非常方便，只是太容易造成误解
 
 ⚊|⚋
@@ -19,10 +19,10 @@ FULLWIDTH BROKEN BAR|U+FFE4|FULLWIDTH BROKEN BAR|￤
 
 ☰|☱|☲|☳|☴|☵|☶|☷
 
-#### 星座
+### 星座
 
 
-#### 勾叉
+### 勾叉
 ☑ `&#x2611;` or `&#9745;`
 ☒ `&#x2612;` or `&#9746;`
 ☑ ✔✅✓✔𐄂🗸🗸🗹❌❎╳
