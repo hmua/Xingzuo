@@ -21,7 +21,7 @@ timezone: Asia/Shanghai #修正ghpages服务器时区比国内晚导致不马上
 #source: 星座 #在StackOverflow上看到的写法，测试后无效，可能缺什么条件
 
 #
-remote_theme: hmua/Customized-Minima
+#remote_theme: hmua/Customized-Minima
 permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
 #permalink: pretty
 
