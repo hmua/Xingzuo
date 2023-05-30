@@ -1,8 +1,5 @@
----
-excerpt: <blockquote><p>Not at first, no. Not until I killed her.</p></blockquote>
----
 >Not at first, no. Not until I killed her.
->
+
 >Aye. I should have done it sooner, when I was first trusted enough to be alone in her presence... but I was too intrigued and foolish.
 >
 >She enthralled me. I found her soul so similar to my own, and we drew together immediately. Despite my misgivings, I gave in and allowed myself to love her.
