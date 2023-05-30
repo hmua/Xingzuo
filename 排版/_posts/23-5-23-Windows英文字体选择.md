@@ -6,6 +6,7 @@ Calibri 间距大
 Lucida Sans Unicode 太散
 Segoe UI 较散；Segoe UI Symbol 太细太轻
 Tahoma、Verdana Pro 传统必选，略
+Lucida Sans Unicode：待补充
 ### 标题风、角锐化
 Gill Sans Nova 夸张的长划 等线结合花体 大写字母宽 J又特别窄 感觉只适合大标题 中标题都不合适
 Eras ITC 像Calibri 细
