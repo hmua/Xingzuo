@@ -1,4 +1,4 @@
->I am Isildur's heir. Fight for me and I will hold your oaths fulfilled! What say you!
+>I am Isildur's heir. Fight for me and I will hold your oaths fulfilled! What say you?
 
 >You have my word! Fight, and I will release you from this living death! What say you!
 >
