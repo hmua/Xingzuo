@@ -2,7 +2,11 @@ title: 星座演进说
 description: 谢谢我喜欢你
 author:
   name: 欸欸
-    
+
+collections:
+  tweets:
+    output: true
+
 defaults:
   - scope:
       path: 星座
