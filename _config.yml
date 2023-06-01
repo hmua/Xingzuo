@@ -6,7 +6,6 @@ author:
 collections:
   tweets:
     people: true
-    output: true
   staff_members:
     people: true
 
