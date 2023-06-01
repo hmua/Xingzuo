@@ -99,3 +99,4 @@ defaults:
 11. 改成最简单路径`_tw/测试.md`，
 无效，日志中无记录。
 12. 改成英文文件名`_tw/testtest.md`，日志无记录。
+13. 加上front matter，无记录。
