@@ -6,6 +6,8 @@ author:
 collections:
   tweets:
     output: true
+  staff_members:
+    people: true
 
 defaults:
   - scope:
