@@ -1,5 +1,11 @@
 
 
+{%if site.tweets%}
+1234
+{%else%}
+no
+{%endif%}
+
 1. 创建`星座/白羊/_twits/23-6-1-测试.md`，
 `config`中加入
 ```yaml
@@ -101,4 +107,3 @@ defaults:
 12. 改成英文文件名`_tw/testtest.md`，日志无记录。
 13. 加上front matter，无记录。
 14. ...
-{{site.tweets}}
