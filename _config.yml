@@ -5,7 +5,7 @@ author:
 
 collections:
   tweets:
-    people: true
+    tweet: true
   staff_members:
     people: true
 
