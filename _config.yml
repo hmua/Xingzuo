@@ -18,9 +18,8 @@ defaults:
   # Journals
   - scope:
       path: "星座/白羊/_posts/tweets"
-      type: posts
-    values:
       output: false
+    values:
       permalink: journal/:year/:month/:day/:title
       category: journals
 
