@@ -5,7 +5,7 @@ author:
 
 collections:
   tweets:
-    output          : true
+    output: true
     
 defaults:
   - scope:
@@ -21,7 +21,8 @@ defaults:
         存档会整理格式，之后注解，在正文中引用。
   # Journals
   - scope:
-      path: "星座/白羊/_posts/_tweets"
+      path: "_tw/星座/白羊/_posts"
+      type: posts
       #output: false
     values:
       permalink: journal/:year/:month/:day/:title
