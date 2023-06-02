@@ -1,7 +1,7 @@
 
 
 #### 组合多种style、weight
-```CSS
+```css
 @font-face {
   font-family: "DroidSerif";
   src: url("DroidSerif-Regular-webfont.ttf") format("truetype");
@@ -29,7 +29,7 @@
 ```
 
 #### 更简练的格式：
-```CSS
+```css
 @font-face {
   font-family: 'Klavika';
   src: url(../fonts/Klavika-Regular.otf) format('truetype') font-weight-normal,
