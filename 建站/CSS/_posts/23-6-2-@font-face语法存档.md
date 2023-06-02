@@ -39,7 +39,7 @@
 ```
 摘录自[StackOverflow](https://stackoverflow.com/questions/28279989/multiple-font-weights-one-font-face-query)
 
-#### 23年6月2日，今天又[看到一种写法](https://stackoverflow.com/a/71851290)
+#### 23年6月2日，今天又看到[一种写法](https://stackoverflow.com/a/71851290)
 ```css
 @font-face {
   font-family: 'NoEmojiAstronomy';
