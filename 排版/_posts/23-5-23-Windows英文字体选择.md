@@ -12,7 +12,7 @@ Gill Sans Nova 夸张的长划 等线结合花体 大写字母宽 J又特别窄 
 Eras ITC 像Calibri 细
 Trebuchet MS 死板
 ## 有笔锋、活泼、微手写感的黑体
-Candara：最爱。代码、文本编辑，引号、方括号、逗句分等符号轮廓被加大，强调格式。
+Candara：最爱。代码、文本编辑。字间距明显，引号、方括号、分号等突出，节段、格式明显。
 Corbel 非常接近Calibri 更轻
 Maiandra GD 像Calibri和Eras 加了些手写风格 适合做输入框
 ## 衬线
