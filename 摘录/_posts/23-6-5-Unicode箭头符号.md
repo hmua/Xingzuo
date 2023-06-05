@@ -6,7 +6,7 @@ Arrow Symbol Alt Codes
 There are different types of arrows that are represented by an Alt Code value. You can type arrow symbols in Excel, in Word etc or you can copy and paste them anywhere you like.
 
 Arrow Symbol|Arrow Type|Alt Code
--|-|-
+:-:|-|-
 ↑|Upwards Arrow|24
 ↓|Downwards Arrow|25
 →|Rightwards Arrow|26
@@ -18,10 +18,6 @@ Arrow Symbol|Arrow Type|Alt Code
 ▼|Downwards filled arrow|31
 ►|Rightwards filled arrow|16
 ◄|Leftwards filled arrow|17
-
-<style>
-td:first-child{font-size:1.5em;padding-block:0}
-</style>
 
 How to type an arrow?
 To type an arrow symbol by using its Alt Code in Word, in Excel etc;
@@ -36,7 +32,7 @@ Arrow Emojis with Unicode Values
 Apart from the depiction of arrow symbols just with plain lines, there are quite a few numbers of decorative arrow emojis in the Unicode world. Below there is the list of arrow symbol emojis. You may copy&paste them anywhere you like. You may also display arrow emojis, on your web page designs, and computer programs by typing their Unicode Hex values
 
 Arrow Emoji|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 🏹|Bow And Arrow|&amp;#x1F3F9;
 💘|Heart With Arrow|&amp;#x1F498;
 📩|Envelope With Downwards Arrow Above|&amp;#x1F4E9;
@@ -84,7 +80,7 @@ release the Alt key and you got a ↓ downwards arrow.
 ** Above mentioned procedure is not aplicable for MacOS.
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ←|Leftwards Arrow|&amp;#x2190;
 ↑|Upwards Arrow|&amp;#x2191;
 →|Rightwards Arrow|&amp;#x2192;
@@ -108,7 +104,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ↬|Rightwards Arrow With Loop|&amp;#x21AC;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ↭|Left Right Wave Arrow|&amp;#x21AD;
 ↮|Left Right Arrow With Stroke|&amp;#x21AE;
 ↯|Downwards Zigzag Arrow|&amp;#x21AF;
@@ -132,7 +128,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⇉|Rightwards Paired Arrows|&amp;#x21C9;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⇊|Downwards Paired Arrows|&amp;#x21CA;
 ⇍|Leftwards Double Arrow With Stroke|&amp;#x21CD;
 ⇎|Left Right Double Arrow With Stroke|&amp;#x21CE;
@@ -156,7 +152,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⇠|Leftwards Dashed Arrow|&amp;#x21E0;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⇡|Upwards Dashed Arrow|&amp;#x21E1;
 ⇢|Rightwards Dashed Arrow|&amp;#x21E2;
 ⇣|Downwards Dashed Arrow|&amp;#x21E3;
@@ -180,7 +176,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⇼|Left Right Arrow With Double Vertical Stroke|&amp;#x21FC;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⇽|Leftwards Open-headed Arrow|&amp;#x21FD;
 ⇾|Rightwards Open-headed Arrow|&amp;#x21FE;
 ⇿|Left Right Open-headed Arrow|&amp;#x21FF;
@@ -204,7 +200,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ➢|Three-d Top-lighted Rightwards Arrowhead|&amp;#x27A2;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ➣|Three-d Bottom-lighted Rightwards Arrowhead|&amp;#x27A3;
 ➤|Black Rightwards Arrowhead|&amp;#x27A4;
 ➥|Heavy Black Curved Downwards And Rightwards Arrow|&amp;#x27A5;
@@ -228,7 +224,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ➸|Heavy Black-feathered Rightwards Arrow|&amp;#x27B8;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ➹|Heavy Black-feathered North East Arrow|&amp;#x27B9;
 ➺|Teardrop-barbed Rightwards Arrow|&amp;#x27BA;
 ➻|Heavy Teardrop-shanked Rightwards Arrow|&amp;#x27BB;
@@ -252,7 +248,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⟾|Long Rightwards Double Arrow From Bar|&amp;#x27FE;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⟿|Long Rightwards Squiggle Arrow|&amp;#x27FF;
 ⤀|Rightwards Two-headed Arrow With Vertical Stroke|&amp;#x2900;
 ⤁|Rightwards Two-headed Arrow With Double Vertical Stroke|&amp;#x2901;
@@ -276,7 +272,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⤓|Downwards Arrow To Bar|&amp;#x2913;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⤔|Rightwards Arrow With Tail With Vertical Stroke|&amp;#x2914;
 ⤕|Rightwards Arrow With Tail With Double Vertical Stroke|&amp;#x2915;
 ⤖|Rightwards Two-headed Arrow With Tail|&amp;#x2916;
@@ -300,7 +296,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⤶|Arrow Pointing Downwards Then Curving Leftwards|&amp;#x2936;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⤷|Arrow Pointing Downwards Then Curving Rightwards|&amp;#x2937;
 ⤸|Right-side Arc Clockwise Arrow|&amp;#x2938;
 ⤹|Left-side Arc Anticlockwise Arrow|&amp;#x2939;
@@ -324,7 +320,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⧪|Black Diamond With Down Arrow|&amp;#x29EA;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⧬|White Circle With Down Arrow|&amp;#x29EC;
 ⧭|Black Circle With Down Arrow|&amp;#x29ED;
 ⨗|Integral With Leftwards Arrow With Hook|&amp;#x2A17;
@@ -348,7 +344,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⬲|Left Arrow With Circled Plus|&amp;#x2B32;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⬳|Long Leftwards Squiggle Arrow|&amp;#x2B33;
 ⬴|Leftwards Two-headed Arrow With Vertical Stroke|&amp;#x2B34;
 ⬵|Leftwards Two-headed Arrow With Double Vertical Stroke|&amp;#x2B35;
@@ -372,7 +368,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⭇|Reverse Tilde Operator Above Rightwards Arrow|&amp;#x2B47;
 
 Arrow Symbol|Arrow Type|Unicode Hex
--|-|-
+:-:|-|-
 ⭈|Rightwards Arrow Above Reverse Almost Equal To|&amp;#x2B48;
 ⭉|Tilde Operator Above Leftwards Arrow|&amp;#x2B49;
 ⭊|Leftwards Arrow Above Almost Equal To|&amp;#x2B4A;
