@@ -1,3 +1,4 @@
+>全文摘录[💘➜↓↳⇢➤🏹 Arrow Symbols: Left, Right, Up and Down Arrow](https://www.alt-codes.net/arrow_alt_codes.php)
 Arrow Symbols
 Lists of arrow symbols, arrow signs, arrow emojis down arrow, up arrow, right and left arrows and all kind of arrows with their Alt Code and Unicode values.
 Arrow Symbol Alt Codes
