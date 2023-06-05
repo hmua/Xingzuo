@@ -1,1 +1,3 @@
-- `{%unless true%}`{%unless true%}{:style='color:green'}{%endunless%}
+- `unless true`{%unless true%}{:style='color:green'}{%endunless%}
+- `unless false`{%unless false%}{:style='color:green'}{%endunless%}
+- `unless true and true`{%unless true and true%}{:style='color:green'}{%endunless%}
