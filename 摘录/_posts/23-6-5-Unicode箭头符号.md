@@ -19,6 +19,10 @@ Arrow Symbol|Arrow Type|Alt Code
 ►|Rightwards filled arrow|16
 ◄|Leftwards filled arrow|17
 
+<style>
+td:first-child{font-size:1.5em;padding-block:0}
+</style>
+
 How to type an arrow?
 To type an arrow symbol by using its Alt Code in Word, in Excel etc;
 Make sure you switch on the NumLock,
