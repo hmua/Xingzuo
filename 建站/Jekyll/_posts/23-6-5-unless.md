@@ -2,8 +2,6 @@
 
 >- `unless true`{%unless true%}{:.t}{%endunless%}
 - `unless false`{%unless false%}{:.t}{%endunless%}
-- `unless 1`{%unless 1%}{:.t}{%endunless%}
-- `unless 0`{%unless 0%}{:.t}{%endunless%}
 >^
 - `unless true and true`{%unless true and true%}{:.t}{%endunless%}
 - `unless true and false`{%unless true and false%}{:.t}{%endunless%}
