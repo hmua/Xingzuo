@@ -14,6 +14,6 @@
 - `unless false or false`{%unless false or false%}{:.t}✓{%endunless%}
 {:.s}
 <style>
-.s{color:gray}
+.s{color:silver}
 .s .t{color:green}
 </style>
