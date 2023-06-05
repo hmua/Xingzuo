@@ -15,6 +15,6 @@
 {: .s}
 
 <style>
-.s>.t{color:gray}
-.s>.t{color:green}
+.s{color:gray}
+.s .t{color:green}
 </style>
