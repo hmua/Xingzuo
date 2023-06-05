@@ -63,6 +63,7 @@ Arrow Emoji|Arrow Type|Unicode Hex
 🔂|Clockwise Rightwards And Leftwards Open Circle Arrows With Circled One Overlay|&#x1F502;
 🔃|Clockwise Downwards And Upwards Open Circle Arrows|&#x1F503;
 🔄|Anticlockwise Downwards And Upwards Open Circle Arrows|&#x1F504;
+
 Arrow Symbols with Unicode Values
 There are more than 600 arrow symbols in Unicode library. We chose about half of them, for you not to get lost in them. You may copy-paste them anywhere you like, or you may use their Unicode values, within your HTML and other programming codes. Before you pick your favorite arrow, let's see how to type an arrow symbol in Word or in Excel?
 How to type an Arrow in Word or in Excel by using it's Unicode value?
@@ -366,8 +367,8 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ⭆|Rightwards Quadruple Arrow|&#x2B46;
 ⭇|Reverse Tilde Operator Above Rightwards Arrow|&#x2B47;
 
--|-|-
 Arrow Symbol|Arrow Type|Unicode Hex
+-|-|-
 ⭈|Rightwards Arrow Above Reverse Almost Equal To|&#x2B48;
 ⭉|Tilde Operator Above Leftwards Arrow|&#x2B49;
 ⭊|Leftwards Arrow Above Almost Equal To|&#x2B4A;
@@ -380,6 +381,7 @@ Arrow Symbol|Arrow Type|Unicode Hex
 ￬|Halfwidth Downwards Arrow|&#xFFEC;
 𐃇|Linear B Ideogram B231 Arrow|&#x100C7;
 𐇙|Phaistos Disc Sign Arrow|&#x101D9;
+
 Arrow Symbols
 How To Use - Arrow Symbols
 One of the most useful symbols you can find on alt-codes.net is the arrow symbol. The arrow symbol is often used in order to indicate and point a specific location, text, time or even a task.
