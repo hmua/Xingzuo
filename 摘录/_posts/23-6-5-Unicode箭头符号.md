@@ -34,8 +34,8 @@ Apart from the depiction of arrow symbols just with plain lines, there are quite
 Arrow Emoji|Arrow Type|Unicode Hex
 -|-|-
 🏹|Bow And Arrow|&#x1F3F9;
-💘|Heart With Arrow|&#x1F498;
-📩|Envelope With Downwards Arrow Above|&#x1F4E9;
+💘|Heart With Arrow|&amp;#x1F498;
+📩|Envelope With Downwards Arrow Above|&amp;#x1F4E9;
 📲|Mobile Phone With Rightwards Arrow At Left|&#x1F4F2;
 📤|Outbox Tray|&#x1F4E4;
 📥|İnbox Tray|&#x1F4E5;
