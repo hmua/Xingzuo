@@ -16,7 +16,7 @@
 
 ##### 注，重要备注
 这里说的“使用GitHub Actions”不等于在Settings里选择“GitHub Actions”，
-*这里有名词指代混淆，希望以后能改进。*
+*Settings中指代不明，以后应该会改进。*
 
 简单、初步地说，使用Actions分两种情况：
 一步（一个action）完成，和分两步（actions）完成。
