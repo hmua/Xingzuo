@@ -1,8 +1,11 @@
+升级到Jekyll 4，即使用GitHub Actions。
+
 #### 优点
 1. 可以使用plugin、复杂表格、Mermaid等，
 目前来看在这方面需求不强，可有可无。
 1. Jekyll 4有些新语法，像“find”是不太必要，
-但“binary operators in where_exp”就很有用了，很值得考虑。
+但“binary operators in where_exp”就对原本啰嗦的语法改进很多。
+考虑到准备加入分类方面的功能，一定会很有帮助。
 
 #### 缺点
 1. 使用Actions好像、大约令生成时间延长一倍。
