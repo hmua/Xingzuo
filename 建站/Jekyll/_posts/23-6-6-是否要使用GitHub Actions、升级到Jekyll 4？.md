@@ -1,6 +1,8 @@
 #### 优点
-1. 可以使用plugin、复杂表格、Mermaid等，\n目前来看在这方面需求不强，可有可无。
-2. Jekyll 4有些新语法，例如“binary operators in where_exp”，\n这就很值得考虑。
+1. 可以使用plugin、复杂表格、Mermaid等，
+目前来看在这方面需求不强，可有可无。
+3. Jekyll 4有些新语法，像“find”是帮助不大，
+但“binary operators in where_exp”就很有用，这就很值得考虑。
 
 #### 缺点
 1. 使用Actions好像、大约令生成时间延长一倍。
