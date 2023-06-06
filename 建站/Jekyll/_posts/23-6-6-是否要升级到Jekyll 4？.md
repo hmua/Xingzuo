@@ -29,3 +29,7 @@
 
 即，第一种是两个actions分别Jekyll和gh-pages；
 第二种是一个action，Jekyll和gh-pages一起。
+
+这个混淆也源自本身“Deploy from a branch”也是一个action，
+和选择“GitHub Actions”的区别是不会有脚本文件，但也会有Actions记录，
+如果不升级Jekyll版本、扩展plugin的话，则完全不用关心。
