@@ -2,6 +2,12 @@
 1. fork (d90a835c3b0d80402bd8f7a8c7cf694bb75c05dd - May 22, 2023 @jeffreytse)
 1. 修改`.github/workflows/deploy-test.yml`，24行最后一行加上`branch: 'gh-pages'`
 1. Settings→Pages，Source选“Deploy from a branch”、Branch选“gh-pages”
-3. Settings→Actions→General最下面两项，
+1. Settings→Actions→General最下面两项，
 	“Allow GitHub Actions to create and approve pull requests”、
 	“Workflow permissions”选“Read and write permissions”
+
+修改“test_site/about.markdown”，
+查看Actions中，会先产生一条“Update about.markdown”，
+完成后再产生一条“pages build and deployment pages”，
+是先触发了Jekyll后触发了gh-pages。
+之后就能看到生效。
