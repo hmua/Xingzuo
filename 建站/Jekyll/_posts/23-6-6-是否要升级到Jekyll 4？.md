@@ -1,4 +1,4 @@
-升级到Jekyll 4，即使用GitHub Actions。
+升级到Jekyll 4，即使用Actions部署GitHub Pages。
 
 #### 优点
 1. 可以使用plugin、复杂表格、Mermaid等，
