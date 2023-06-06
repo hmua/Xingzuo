@@ -33,4 +33,4 @@
 
 这个混淆也源自本身“Deploy from a branch”也是一个action，
 和选择“GitHub Actions”的区别是不会有脚本文件，但也会有Actions记录，
-如果不升级Jekyll版本、扩展plugin的话，则完全不用关心。
+如果不升级Jekyll版本、不扩展plugin的话，则完全不需关心。
