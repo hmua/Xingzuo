@@ -25,7 +25,7 @@
 第二步再由gh-pages本来的基本功能“Deploy from a branch”部署这个站点。
 
 如果在Settings中选择“GitHub Actions（Beta）”，
-则会生成一个的action并启用，该一个action中包括两步。
+则会生成一个的action（.yml文件）并启用，该一个action中包括两步。
 
 即，第一种是两个actions分别Jekyll和gh-pages；
 第二种是一个action，Jekyll和gh-pages一起。
