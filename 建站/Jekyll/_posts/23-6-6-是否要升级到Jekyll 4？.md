@@ -24,7 +24,7 @@
 该action只完成第一步：Jekyll生成站点，
 第二步再由gh-pages本来的基本功能“Deploy from a branch”部署这个站点。
 
-如果在Settings中选择“GitHub Actions”，则会生成一个一步的action并启用，
+如果在Settings中选择“GitHub Actions（Beta）”，则会生成一个一步的action并启用，
 该action中包括两步。
 即，第一种是两个action分别Jekyll和gh-pages；
 第二种是一个action，Jekyll和gh-pages一起。
