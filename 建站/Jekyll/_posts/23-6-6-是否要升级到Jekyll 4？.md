@@ -19,7 +19,8 @@
 *Settings中用语指代不明，以后应该会改进。*
 
 简单、初步地说，
-使用Actions分两种情况：“一个action完成”，和“分两个actions完成”。
+使用Actions分两种情况：“一个action完成”，和“分两个actions完成”，
+（这里所说的“一个action”都是指一个脚本：.yml文件）。
 我测试使用的@JefferyTse的action就是分两步的情况中的第一步，
 该action只完成第一步：Jekyll生成站点，
 第二步再由gh-pages本来的基本功能“Deploy from a branch”部署这个站点。
