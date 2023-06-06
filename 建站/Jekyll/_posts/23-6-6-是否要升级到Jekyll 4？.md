@@ -13,3 +13,18 @@
 
 所幸是，Actions的启用关闭，在尝试过程中反复多次操作，看来完全没问题，
 启用、关闭都很顺畅，用了4，再回到3.9，至少设置上不麻烦。
+
+##### 注，重要备注
+这里说的“使用GitHub Actions”不等于在Settings里选择“GitHub Actions”，
+*这里有名词指代混淆，希望以后能改进。*
+
+简单、初步地说，使用Actions分两种情况：
+一步（一个action）完成，和分两步（actions）完成。
+我测试使用的@JefferyTse的action就是分两步的情况中的第一步，
+该action只完成第一步：Jekyll生成站点，
+第二步再由gh-pages本来的基本功能“Deploy from a branch”部署这个站点。
+
+如果在Settings中选择“GitHub Actions”，则会生成一个一步的action并启用，
+该action中包括两步。
+即，第一种是两个action分别Jekyll和gh-pages；
+第二种是一个action，Jekyll和gh-pages一起。
