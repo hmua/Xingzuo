@@ -1,7 +1,7 @@
 升级到Jekyll 4，即使用Actions部署GitHub Pages。
 
 #### 优点
-1. 可以使用插件：复杂表格、Mermaid图表等，但目前来看这方面完全不需要。
+1. 可以使用插件：复杂表格、Mermaid图表等，但目前来看这些完全不需要。
 1. Jekyll 4有些新语法，像“find”是不太必要，
 但“binary operators in where_exp”就对原本啰嗦的语法改进很多。
 考虑到准备加入分类方面的功能，一定会很有帮助。
