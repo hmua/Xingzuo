@@ -11,7 +11,7 @@ Lucida Sans Unicode：待补充
 Gill Sans Nova
 : 大小写对比明显，
 大写“J”窄长、“M”被简化、增加空白、流线饱满、夸张。
-等线结合花体，非常显眼的标题字。
+等线结合花体，非常显眼的标题字。123
 
 Eras ITC
 : 像Calibri 细
