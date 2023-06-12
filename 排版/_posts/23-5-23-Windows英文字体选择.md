@@ -7,7 +7,7 @@ Lucida Sans Unicode 太散
 Segoe UI 较散；Segoe UI Symbol 太细太轻
 Tahoma、Verdana Pro 传统必选，略
 Lucida Sans Unicode：待补充
-#### 标题风、角锐化
+### 标题风、角锐化
 Gill Sans Nova
 : 大小写对比明显，
 大写“J”窄长、“M”被简化、增加空白、流线饱满、夸张。
