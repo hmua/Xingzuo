@@ -8,9 +8,15 @@ Segoe UI 较散；Segoe UI Symbol 太细太轻
 Tahoma、Verdana Pro 传统必选，略
 Lucida Sans Unicode：待补充
 ### 标题风、角锐化
-Gill Sans Nova 夸张的长划 等线结合花体 大写字母宽 J又特别窄长 感觉只适合大标题 中标题都不合适
-Eras ITC 像Calibri 细
-Trebuchet MS 死板
+Gill Sans Nova
+: 大小写对比明显，大写“J”窄长、“M”被简化、增加空白、流线饱满、夸张。
+等线结合花体，非常显眼的标题字。
+
+Eras ITC
+: 像Calibri 细
+
+Trebuchet MS
+: 死板
 ## 有笔锋、活泼、微手写感的黑体
 Candara
 : 最爱。代码、文本编辑。字间距明显，引号、方括号、分号等突出，节段、格式明显。
