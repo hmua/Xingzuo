@@ -27,5 +27,6 @@
 
 ## Escape
 ```liquid{%raw%}
-{{'{{'}}'abcde'}}{%endraw%}}
+{{'{{'}}'abcde'}}{%endraw%}
 ```
+>{{'{{'}}'abcde'}}
