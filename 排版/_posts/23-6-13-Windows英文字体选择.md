@@ -31,7 +31,8 @@ Maiandra GD
 : 像Calibri和Eras 加了些手写风格 适合做输入框
 
 ## 衬线
-Palatono Linotype：有韵律。多年经典，仍然是衬线第一；
+Palatono Linotype：有韵律。多年经典，kramedown官站用的字体，
+没有适合高DPI的字重，细的太细粗的太粗，尴尬的是没有理想的替代字体。
 Cambria：窄，中规中矩；
 Garamond 太细，只有两个字重，不是太轻就是太重，字形还是好过其它
 MS Serif 中规中矩
