@@ -1,4 +1,4 @@
-*只是记录生成时间，以便之后总结经验*
+*只是积累生成时间记录，以便之后总结经验*
 
 从`{{'{'}}{site.categories|join:','}}`{:.liquid}
 改`{{'{'}}{site.categories|map:'name'|join:','}}`{:.liquid}
