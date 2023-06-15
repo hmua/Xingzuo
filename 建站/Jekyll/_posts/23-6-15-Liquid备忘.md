@@ -85,9 +85,6 @@
 `'abc'|size`|`'abc'.size`|`'abc'[size]`|`'abc'['size']`|`'abc'["size"]`
 {{'abc'|size}}|{{'abc'.size}}×|{{'abc'[size]}}×|{{'abc'['size']}}×|{{'abc'["size"]}}×
 
-#### 确认string的array操作
-{{'bcdae'|sort}}
-
 #### join
 
 `abcdefg|join:','`{:.liquid}{{abcdefg|join:','`}}✓|`abcdefg.join:','`{{abcdefg.join:','}}×
