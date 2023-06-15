@@ -107,6 +107,9 @@ array的filters支持“dot notation”，string的则不支持。
 #### first
 {{'abc'|first}}*无效*
 
+#### slice
+{{'abc'|slice:1}}
+
 ### map
 {%assign abc='abc,de,fg,hijk,lmn'|split:','%}
 {{abc|map:'size'|join:'、'}}
