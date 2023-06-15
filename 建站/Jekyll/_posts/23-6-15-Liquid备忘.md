@@ -55,7 +55,6 @@
 {{a|upcase}}|{{a.upcase}}×|{{a[upcase]}}×|{{a['upcase']}}×|{{a["upcase"]}}×
 
 #### size
-
 `size`则可以`|`、`.`两种写法
 
 {%assign abc='abcde'-%}
