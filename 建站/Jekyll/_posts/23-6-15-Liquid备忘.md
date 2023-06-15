@@ -86,6 +86,7 @@
 {{'abc'|size}}|{{'abc'.size}}×|{{'abc'[size]}}×|{{'abc'['size']}}×|{{'abc'["size"]}}×
 
 #### 确认string的array操作
+{{'bcdae'|sort}}
 
 #### join
 
