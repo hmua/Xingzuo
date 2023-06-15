@@ -69,7 +69,7 @@
 `abc|size`|`abc.size`|`abc[size]`|`abc['size']`|`abc["size"]`
 {{abc|size}}|{{abc.size}}|{{abc[size]}}×|{{abc['size']}}×|{{abc["size"]}}×
 
-从[文档]看`size`对string的支持是特别的，
+从[文档]看size对string的支持是特别的，
 array的其他filter并不是都可以用在string上。
 >Returns the size of a string or array.
 
