@@ -66,7 +66,7 @@
 `abc.[size]`|`abc.['size']`|`abc.["size"]`
 {{abc.[size]}}×|{{abc.['size']}}×|{{abc.["size"]}}×
 
-匿名变量，和数字一样，只支持`|`一种写法：
+匿名值，和数字一样，只支持`|`一种写法：
 
 `'abc'|size`|`'abc'.size`|`'abc'[size]`|`'abc'['size']`|`'abc'["size"]`
 {{'abc'|size}}|{{'abc'.size}}×|{{'abc'[size]}}×|{{'abc'['size']}}×|{{'abc'["size"]}}×
