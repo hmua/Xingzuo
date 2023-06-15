@@ -9,11 +9,11 @@
 \{%assign abc='abc'|slice:1%}
 {\%assign abc='abc'|slice:1%}
 
-&lcub;{abc}}
-&#123;{abc}}
-{{'{'}}{abc}}✓
-\{{abc}}
-{\{abc}}
+&lcub;{'abc'|slice:1}}
+&#123;{'abc'|slice:1}}
+{{'{'}}{'abc'|slice:1}}✓
+\{{'abc'|slice:1}}
+{\{'abc'|slice:1}}
 ```
 
 正文段落和blockquote则情况完全一致，比代码块多几种可用写法
@@ -23,11 +23,11 @@
 >\{%assign abc='abc'|slice:1%}
 >{\%assign abc='abc'|slice:1%}
 >
->&lcub;{abc}}
->&#123;{abc}}✓
->{{'{'}}{abc}}✓
->\{{abc}}
->{\{abc}}✓
+>&lcub;{'abc'|slice:1}}
+>&#123;{'abc'|slice:1}}✓
+>{{'{'}}{'abc'|slice:1}}✓
+>\{{'abc'|slice:1}}
+>{\{'abc'|slice:1}}✓
 
 ### Handles、Filters
 和JS中“函数”对应的概念，
