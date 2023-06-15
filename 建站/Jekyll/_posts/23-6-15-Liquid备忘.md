@@ -77,7 +77,7 @@
 而array的其他filter并不是都可以用在string上。
 经过测试，`'abc'|first`没有输出，
 `'bcdae'|sort`会导致Jekyll build失败。
-（[Jekyll文档]中，sort有特别处理，不同于Liquid filter。）
+（[Jekyll文档]中，sort有特别处理，区别于原本的Liquid filter。）
 
 [Jekyll文档]:https://jekyllrb.com/docs/liquid/filters
 
