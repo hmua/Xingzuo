@@ -1,7 +1,7 @@
 
 
 ### escape
-行间代码和代码块的情况完全一致
+行内代码和代码块的情况完全一致
 ```liquid
 &lcub;%assign abcde='ab,c,def'|split:','%}
 &#123;%assign abcde='ab,c,def'|split:','%}
