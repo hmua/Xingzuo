@@ -77,7 +77,8 @@
 >Returns the size of a string or array.
 
 从文档看出`size`对string的支持是特别的，
-array的其他filter经过测试，`'abc'|first`没有输出，
+并不是array的其他filter都可以用在string上，
+经过测试，`'abc'|first`没有输出，
 `'bcdae'|sort`会导致Jekyll build失败。
 
 扩展一组
