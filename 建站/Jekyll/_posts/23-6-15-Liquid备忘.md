@@ -36,7 +36,7 @@
 #### Handle
 
 #### Filter
-#### `round`、`abs`等数字操作只支持`|`一种写法：
+#### `round`、`abs`等数字操作只支持`|`一种写法
 
 `5|round`|`5.round`|`5[round]`|`5['round']`|`5["round"]`
 {{5|round}}|{{5.round}}×|{{5[round]}}×|{{5['round']}}×|{{5["round"]}}×
@@ -46,8 +46,7 @@
 `a|round`|`a.round`|`a[round]`|`a['round']`|`a["round"]`
 {{a|round}}|{{a.round}}×|{{a[round]}}×|{{a['round']}}×|{{a["round"]}}×
 
-#### `size`则可以`|`、`.`两种写法：
-*不知道是否有人能看懂，我是真看不懂。*
+#### `size`则可以`|`、`.`两种写法
 
 {%assign abc='abcde'-%}
 `assign abc='abcde'`
@@ -61,6 +60,7 @@
 `abc|size`|`abc.size`|`abc[size]`|`abc['size']`|`abc["size"]`
 {{abc|size}}|{{abc.size}}|{{abc[size]}}×|{{abc['size']}}×|{{abc["size"]}}×
 
+*不知道是否有人能看懂，我是真看不懂。*
 #### 扩展一组
 
 `abc.[size]`|`abc.['size']`|`abc.["size"]`
