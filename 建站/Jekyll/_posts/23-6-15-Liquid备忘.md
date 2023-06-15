@@ -73,7 +73,12 @@
 *不知道是否有人能看懂，我是真看不懂。*
 `size`可以用`.`，`upcase`不可以，
 只知道唯一线索是，size应该是array的，参考[文档](https://shopify.dev/docs/api/liquid/filters/size)
-[upcase](https://shopify.dev/docs/api/liquid/filters/upcase)是string的。
+
+>Returns the size of a string or array.
+
+从文档看出`size`对string的支持是特别的，
+array的其他filter经过测试，`'abc'|first`没有输出，
+`'bcdae'|sort`会导致Jekyll build失败。
 
 扩展一组
 
