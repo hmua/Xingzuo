@@ -69,18 +69,19 @@
 `abc|size`|`abc.size`|`abc[size]`|`abc['size']`|`abc["size"]`
 {{abc|size}}|{{abc.size}}|{{abc[size]}}×|{{abc['size']}}×|{{abc["size"]}}×
 
-*不知道是否有人能看懂，我是真看不懂。*
-`size`可以用`.`，`upcase`及其它则都不可以，
-唯一线索是，size应该是array的，参考[文档](https://shopify.dev/docs/api/liquid/filters/size)
-
 >Returns the size of a string or array.
 
-从文档看出`size`对string的支持是特别的，
+从[文档]看出`size`对string的支持是特别的，
 并不是array的其他filter都可以用在string上，
 经过测试，`'abc'|first`没有输出，
 `'bcdae'|sort`会导致Jekyll build失败。
 
-扩展一组
+[文档]:https://shopify.dev/docs/api/liquid/filters/size
+
+从文档看，array的filters支持“dot notation”，string的则不支持，没错；
+但为什么会有这种差异，似乎并没逻辑？也搜不到讲解讨论。
+
+#### 扩展一组
 
 `abc.[size]`|`abc.['size']`|`abc.["size"]`
 {{abc.[size]}}×|{{abc.['size']}}×|{{abc.["size"]}}×
