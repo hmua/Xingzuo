@@ -3,11 +3,11 @@
 ### escape
 行内代码和代码块的情况完全一致
 ```liquid
-&lcub;%assign abc='abc'|split:','%}
-&#123;%assign abc='abc'|split:','%}
-{{'{'}}%assign abc='abc'|split:','%}✓
-\{%assign abc='abc'|split:','%}
-{\%assign abc='abc'|split:','%}
+&lcub;%assign abc='abc'|slice:1%}
+&#123;%assign abc='abc'|slice:1%}
+{{'{'}}%assign abc='abc'|slice:1%}✓
+\{%assign abc='abc'|slice:1%}
+{\%assign abc='abc'|slice:1%}
 
 &lcub;{abc}}
 &#123;{abc}}
@@ -17,11 +17,11 @@
 ```
 
 正文段落和blockquote则情况完全一致，比代码块多几种可用写法
->&lcub;%assign abc='abc'|split:','%}
->&#123;%assign abc='abc'|split:','%}✓
->{{'{'}}%assign abc='abc'|split:','%}✓
->\{%assign abc='abc'|split:','%}
->{\%assign abc='abc'|split:','%}
+>&lcub;%assign abc='abc'|slice:1%}
+>&#123;%assign abc='abc'|slice:1%}✓
+>{{'{'}}%assign abc='abc'|slice:1%}✓
+>\{%assign abc='abc'|slice:1%}
+>{\%assign abc='abc'|slice:1%}
 >
 >&lcub;{abc}}
 >&#123;{abc}}✓
