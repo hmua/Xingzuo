@@ -71,6 +71,9 @@
 {{abc|size}}|{{abc.size}}|{{abc[size]}}×|{{abc['size']}}×|{{abc["size"]}}×
 
 *不知道是否有人能看懂，我是真看不懂。*
+`size`可以用`.`，`upcase`不可以，
+只知道唯一线索是，size应该是array的，参考[文档](https://shopify.dev/docs/api/liquid/filters/size)
+[upcase](https://shopify.dev/docs/api/liquid/filters/upcase)是string的。
 
 扩展一组
 
@@ -81,6 +84,8 @@
 
 `'abc'|size`|`'abc'.size`|`'abc'[size]`|`'abc'['size']`|`'abc'["size"]`
 {{'abc'|size}}|{{'abc'.size}}×|{{'abc'[size]}}×|{{'abc'['size']}}×|{{'abc'["size"]}}×
+
+#### 确认string的array操作
 
 #### join
 
