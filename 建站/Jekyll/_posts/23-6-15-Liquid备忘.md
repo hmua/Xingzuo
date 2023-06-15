@@ -3,31 +3,31 @@
 ### escape
 行内代码和代码块的情况完全一致
 ```liquid
-&lcub;%assign abcde='ab,c,def'|split:','%}
-&#123;%assign abcde='ab,c,def'|split:','%}
-{{'{'}}%assign abcde='ab,c,def'|split:','%}✓
-\{%assign abcde='ab,c,def'|split:','%}
-{\%assign abcde='ab,c,def'|split:','%}
+&lcub;%assign abc='abc'|split:','%}
+&#123;%assign abc='abc'|split:','%}
+{{'{'}}%assign abc='abc'|split:','%}✓
+\{%assign abc='abc'|split:','%}
+{\%assign abc='abc'|split:','%}
 
-&lcub;{abcde}}
-&#123;{abcde}}
-{{'{'}}{abcde}}✓
-\{{abcde}}
-{\{abcde}}
+&lcub;{abc}}
+&#123;{abc}}
+{{'{'}}{abc}}✓
+\{{abc}}
+{\{abc}}
 ```
 
 正文段落和blockquote则情况完全一致，比代码块多几种可用写法
->&lcub;%assign abcde='ab,c,def'|split:','%}
->&#123;%assign abcde='ab,c,def'|split:','%}✓
->{{'{'}}%assign abcde='ab,c,def'|split:','%}✓
->\{%assign abcde='ab,c,def'|split:','%}
->{\%assign abcde='ab,c,def'|split:','%}
+>&lcub;%assign abc='abc'|split:','%}
+>&#123;%assign abc='abc'|split:','%}✓
+>{{'{'}}%assign abc='abc'|split:','%}✓
+>\{%assign abc='abc'|split:','%}
+>{\%assign abc='abc'|split:','%}
 >
->&lcub;{abcde}}
->&#123;{abcde}}✓
->{{'{'}}{abcde}}✓
->\{{abcde}}
->{\{abcde}}✓
+>&lcub;{abc}}
+>&#123;{abc}}✓
+>{{'{'}}{abc}}✓
+>\{{abc}}
+>{\{abc}}✓
 
 ### Handles、Filters
 和JS中“函数”对应的概念，
