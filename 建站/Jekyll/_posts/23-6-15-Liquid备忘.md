@@ -77,6 +77,9 @@
 而array的其他filter并不是都可以用在string上。
 经过测试，`'abc'|first`没有输出，
 `'bcdae'|sort`会导致Jekyll build失败。
+（[Jekyll文档]中，sort有特别处理，不同于Liquid filter。）
+
+[Jekyll文档]:https://jekyllrb.com/docs/liquid/filters
 
 array的filters支持“dot notation”，string的则不支持。
 文档也是这样写的没错，但为什么会有这种差异，似乎并没逻辑，
