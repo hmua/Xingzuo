@@ -29,6 +29,8 @@
 >\{{'abc'|slice:1}}
 >{\{'abc'|slice:1}}✓
 
+其实正文、片段引用中不必带起止括号。
+
 ### Handles、Filters
 和JS中“函数”对应的概念，
 在Liquid中是“handle”和“filter”，这样命名符合“模板语言”。
