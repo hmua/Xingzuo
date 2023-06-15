@@ -36,6 +36,8 @@
 #### Handle
 
 #### Filter
+
+#### 数字
 `round`、`abs`等数字操作只支持`|`一种写法
 
 `5|round`|`5.round`|`5[round]`|`5['round']`|`5["round"]`
@@ -45,6 +47,14 @@
 
 `a|round`|`a.round`|`a[round]`|`a['round']`|`a["round"]`
 {{a|round}}|{{a.round}}×|{{a[round]}}×|{{a['round']}}×|{{a["round"]}}×
+
+#### 文本
+`assign a='abc'`{%assign a='abc'%}
+
+`a|upcase`|`a.upcase`|`a[upcase]`|`a['upcase']`|`a["upcase"]`
+{{a|upcase}}|{{a.upcase}}×|{{a[upcase]}}×|{{a['upcase']}}×|{{a["upcase"]}}×
+
+#### size
 
 `size`则可以`|`、`.`两种写法
 
