@@ -72,6 +72,7 @@
 从[文档]看`size`对string的支持是特别的，
 array的其他filter并不是都可以用在string上。
 >Returns the size of a string or array.
+
 [文档]:https://shopify.dev/docs/api/liquid/filters/size
 
 经过测试，`'abc'|first`没有输出，
