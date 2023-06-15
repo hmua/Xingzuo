@@ -71,8 +71,8 @@
 {{abc|size}}|{{abc.size}}|{{abc[size]}}×|{{abc['size']}}×|{{abc["size"]}}×
 
 *不知道是否有人能看懂，我是真看不懂。*
-`size`可以用`.`，`upcase`不可以，
-只知道唯一线索是，size应该是array的，参考[文档](https://shopify.dev/docs/api/liquid/filters/size)
+`size`可以用`.`，`upcase`及其它则都不可以，
+唯一线索是，size应该是array的，参考[文档](https://shopify.dev/docs/api/liquid/filters/size)
 
 >Returns the size of a string or array.
 
