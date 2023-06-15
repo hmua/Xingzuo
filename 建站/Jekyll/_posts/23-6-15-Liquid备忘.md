@@ -69,9 +69,8 @@
 `abc|size`|`abc.size`|`abc[size]`|`abc['size']`|`abc["size"]`
 {{abc|size}}|{{abc.size}}|{{abc[size]}}×|{{abc['size']}}×|{{abc["size"]}}×
 
->Returns the size of a string or array.
-
 从[文档]看出`size`对string的支持是特别的，
+>Returns the size of a string or array.^
 并不是array的其他filter都可以用在string上，
 经过测试，`'abc'|first`没有输出，
 `'bcdae'|sort`会导致Jekyll build失败。
