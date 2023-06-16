@@ -110,9 +110,6 @@ array的filters支持`.`，string的则不支持。
 {%assign abc=abc|concat:abc%}
 {{abc|join:','}}
 
-#### first
-{{'abc'|first}}*无效*
-
 #### slice
 {{'abc'|slice:1}}
 
