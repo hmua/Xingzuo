@@ -74,6 +74,7 @@
 `abc|size`|`abc.size`|`abc[size]`|`abc['size']`|`abc["size"]`
 {{abc|size}}|{{abc.size}}|{{abc[size]}}×|{{abc['size']}}×|{{abc["size"]}}×
 
+#### size和slice
 从文档看，有部分filter是同时支持string和array的，
 如array下的`size`也支持string，
 >Returns the size of a string or array.（[文档](https://shopify.dev/docs/api/liquid/filters/size)）
@@ -82,6 +83,7 @@ string下的`slice`则也支持array
 >Returns a substring or series of array items, starting at a given 0-based index.（[文档](https://shopify.dev/docs/api/liquid/filters/slice)）
 
 但并不是所有filter都通用，或者也不是想当然的都通用，只以文档为准。
+文档中，slice是string下唯一同时支持array的，array下未专门确认。
 经过测试，`'abc'|first`没有输出，`'bac'|sort`会导致Jekyll build失败。
 （[Jekyll文档]中，sort有特别处理，区别于原本的Liquid filter。）
 
