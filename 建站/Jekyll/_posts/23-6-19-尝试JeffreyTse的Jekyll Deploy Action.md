@@ -23,9 +23,9 @@ theme不正常，分两种情况，查看生成的HTML源码
 或者`_config.yml`中：
 ```yaml
 defaults:
-  -
-    scope:
-      path: "index.md"
+	-
+		scope:
+			path: "index.md"
     values:
       layout: home
   -
