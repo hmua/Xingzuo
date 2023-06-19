@@ -19,7 +19,8 @@
 ###### 2023年6月19日
 ## 二刷遇到的问题
 theme不正常，分两种情况，查看生成的HTML源码
-1. head中没有style：在front matter中加入`layout: home`，或者`_config.yml`中：
+1. head中没有style：在front matter中加入`layout: home`，
+或者`_config.yml`中：
 ```yaml
 defaults:
   -
@@ -33,4 +34,5 @@ defaults:
     values:
       layout: page
 ```
-3. head中有style但路径是`jekyll-deploy-action`：在`_config.yml`中修改`baseurl`
+3. head中有style但路径是`jekyll-deploy-action`：
+在`_config.yml`中修改`baseurl`
