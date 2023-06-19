@@ -21,8 +21,8 @@
 theme不正常，分两种情况，查看生成的HTML源码
 1. head中没有style：在front matter中加入`layout: home`，
 或者`_config.yml`中：
-```yaml
 {::nomarkdown}
+```yaml
 defaults:
   -
     scope:
@@ -34,8 +34,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: page
-{:/nomarkdown}
 ```
+{:/nomarkdown}
 3. head中有style但路径是`jekyll-deploy-action`：
 在`_config.yml`中修改`baseurl`
 
