@@ -24,7 +24,7 @@ theme不正常，分两种情况，查看生成的HTML源码
 ```yaml
 defaults:
   -
-    scope:
+   \sscope:
       path: "index.md"
     values:
       layout: home
