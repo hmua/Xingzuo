@@ -22,17 +22,19 @@ theme不正常，分两种情况，查看生成的HTML源码
 1. head中没有style：在front matter中加入`layout: home`，
 或者`_config.yml`中：
 ```yaml
+{::nomarkdown}
 defaults:
   -
-	scope:
-	  path: "index.md"
-	values:
-	  layout: home
+    scope:
+      path: "index.md" # an empty string here means all files in the project
+    values:
+      layout: home
   -
-	scope:
-	  path: ""
-	values:
-	  layout: page
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: page
+{:/nomarkdown}
 ```
 3. head中有style但路径是`jekyll-deploy-action`：
 在`_config.yml`中修改`baseurl`
