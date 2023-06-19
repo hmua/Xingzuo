@@ -25,12 +25,12 @@ theme不正常，分两种情况，查看生成的HTML源码
 defaults:
   -
     scope:
-      path: "index.md" # an empty string here means all files in the project
+      path: "index.md"
     values:
       layout: home
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
     values:
       layout: page
 ```
