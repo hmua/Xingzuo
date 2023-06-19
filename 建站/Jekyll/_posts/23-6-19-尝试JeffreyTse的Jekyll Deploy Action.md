@@ -19,22 +19,22 @@
 ###### 2023年6月19日
 ## 二刷遇到的问题
 theme不正常，分两种情况，查看生成的HTML源码
-1. head中没有style：在front matter中加入`layout: home`
-3. 有style但路径是`jekyll-deploy-action`：在`_config.yml`中修改`baseurl`
+1. head中没有style：在front matter或`_config.yml`中加入`layout: page`
+3. head中有style但路径是`jekyll-deploy-action`：在`_config.yml`中修改`baseurl`
 
 #### `_config.yml`设置layout
 ```yaml
 defaults:
   -
     scope:
-      path: "index.md"
-    values:
-      layout: home
-  -
-    scope:
       path: ""
     values:
       layout: page
+  -
+    scope:
+      path: "index.md"
+    values:
+      layout: home
 ```
 
 #### 以及
