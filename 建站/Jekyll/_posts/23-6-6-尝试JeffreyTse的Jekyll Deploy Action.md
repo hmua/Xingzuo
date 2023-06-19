@@ -1,6 +1,6 @@
 简记，依次做了以下设置（不确定哪步可能不是必要的）
 1. fork [d90a835 - May 22, 2023 @jeffreytse](https://github.com/jeffreytse/jekyll-deploy-action/commit/d90a835c3b0d80402bd8f7a8c7cf694bb75c05dd)
-1. 修改`.github/workflows/deploy-test.yml`，24行最后一行加上`branch: 'gh-pages'`
+1. 修改`.github/workflows/deploy-test.yml`，24行最后一行加上`branch: 'gh-pages'`（复测这步不需要）
 1. Settings→Pages，Source选“Deploy from a branch”、Branch选“gh-pages”
 1. Settings→Actions→General最下面两项，
 	“Allow GitHub Actions to create and approve pull requests”、
