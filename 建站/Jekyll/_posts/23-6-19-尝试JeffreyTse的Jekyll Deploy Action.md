@@ -15,3 +15,9 @@
 通过写一个测试页确认，Jekyll版本从本来的<4.0升级到了≥4.1。
 但站点的生成时间也大概延长了一倍，
 如何取舍还要再考虑。
+
+###### 2023年6月19日
+## 二测刷遇到的问题
+theme不正常，分两种情况，查看生成的HTML源码
+1. head中没有style：在front matter中加入`layout: home`
+2. head中有style但路径是`jekyll-deploy-action`：在`_config.yml`中修改`base_url`
