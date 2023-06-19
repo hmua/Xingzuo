@@ -38,5 +38,6 @@ defaults:
 ```
 
 #### 以及
-1. md文件需要front matter
-2. 需要index.md
+1. md文件需要front matter，猜测可以在配置中加`include` md文件，
+   或者找gh-pages的配置文件参考
+3. 需要index.md
