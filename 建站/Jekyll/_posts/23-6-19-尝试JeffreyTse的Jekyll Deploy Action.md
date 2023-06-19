@@ -36,3 +36,7 @@ defaults:
 ```
 3. head中有style但路径是`jekyll-deploy-action`：
 在`_config.yml`中修改`baseurl`
+
+#### 以及
+1. md文件需要front matter
+2. 需要index.md
