@@ -20,4 +20,4 @@
 ## 二测刷遇到的问题
 theme不正常，分两种情况，查看生成的HTML源码
 1. head中没有style：在front matter中加入`layout: home`
-2. head中有style但路径是`jekyll-deploy-action`：在`_config.yml`中修改`base_url`
+2. head中有style但路径是`jekyll-deploy-action`：在`_config.yml`中修改`baseurl`
