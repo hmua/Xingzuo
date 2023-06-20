@@ -23,8 +23,8 @@ theme不正常，分两种情况，查看生成的HTML源码
 3. head中有style但路径是`jekyll-deploy-action`：在`_config.yml`中修改`baseurl`
 
 #### 在`_config.yml`中设置layout
-\s```yaml
-\sdefaults:
+\s\s```yaml
+\s\sdefaults:
   -
     scope:
       path: ""
