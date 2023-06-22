@@ -77,4 +77,4 @@ build失败，无可用信息。
 
 [Jekyll Readme Index]:https://github.com/benbalter/jekyll-readme-index
 
-*已经完成，添加版本探针。*
+*已经完成，添加版本探针。进一步配置theme见二刷*
