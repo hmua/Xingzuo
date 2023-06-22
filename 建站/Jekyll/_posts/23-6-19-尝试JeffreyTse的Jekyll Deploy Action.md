@@ -80,3 +80,5 @@ build失败，无可用信息。
 6. 添加[Jekyll Readme Index]，成功生成首页。
 
 [Jekyll Readme Index]:https://github.com/benbalter/jekyll-readme-index
+
+*已经完成，添加版本探针。*
