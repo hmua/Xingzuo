@@ -78,3 +78,7 @@ build失败，无可用信息。
 [Jekyll Readme Index]:https://github.com/benbalter/jekyll-readme-index
 
 *已经完成，添加版本探针。进一步配置theme见二刷*
+
+#### 确认action权限
+1. 关闭*Allow GitHub Actions to create and approve pull requests*，可build
+2. 关闭*Read and write permissions*，不能更新`gh-pages`branch了。
