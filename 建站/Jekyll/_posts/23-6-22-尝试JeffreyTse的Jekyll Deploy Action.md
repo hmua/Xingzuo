@@ -47,32 +47,31 @@ defaults:
 1. 创建新项目，带`README.md`
 2. 开Action两个权限
 3. 建action
-
-```yaml
-name: Tests
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  github-pages:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - uses: actions/cache@v3
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ secrets.CACHE_VERSION }}-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-    - uses: jeffreytse/jekyll-deploy-action@v0.4.0
-      with:
-        provider: 'github'
-        token: ${{ secrets.GITHUB_TOKEN }}
-        jekyll_src: './'
-```
+	```yaml
+	name: Tests
+	
+	on:
+	  push:
+	    branches:
+	      - main
+	
+	jobs:
+	  github-pages:
+	    runs-on: ubuntu-latest
+	    steps:
+	    - uses: actions/checkout@v3
+	    - uses: actions/cache@v3
+	      with:
+	        path: vendor/bundle
+	        key: ${{ runner.os }}-gems-${{ secrets.CACHE_VERSION }}-${{ hashFiles('**/Gemfile.lock') }}
+	        restore-keys: |
+	          ${{ runner.os }}-gems-
+	    - uses: jeffreytse/jekyll-deploy-action@v0.4.0
+	      with:
+	        provider: 'github'
+	        token: ${{ secrets.GITHUB_TOKEN }}
+	        jekyll_src: './'
+	```
 build失败，无可用信息。
 4. `_config.yml`：`baseurl: "/tjda4"`，build失败，无可用信息。
 试了一下gh-pages classic，可以生成。
