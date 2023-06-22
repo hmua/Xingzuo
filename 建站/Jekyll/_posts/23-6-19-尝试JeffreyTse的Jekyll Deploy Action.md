@@ -47,7 +47,8 @@ defaults:
 1. 创建新项目，带`README.md`
 2. 开Action两个权限
 3. 建action
-	```yaml
+
+```yaml
 name: Tests
 
 on:
@@ -76,3 +77,4 @@ build失败，无可用信息。
 4. `_config.yml`：`baseurl: "/tjda4"`，build失败，无可用信息。
 试了一下gh-pages classic，可以生成。
 5. Gemfile（内容略），Jekyll build通过，gh-pages classic通过但没内容。
+6. 添加[Jekyll Readme Index](https://github.com/benbalter/jekyll-readme-index)
