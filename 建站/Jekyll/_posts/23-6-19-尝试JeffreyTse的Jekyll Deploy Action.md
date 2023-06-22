@@ -45,7 +45,8 @@ defaults:
 ###### 2023年6月22日
 ## 三刷
 1. 创建新项目，带`README.md`
-2. 建action
+2. 开Action两个权限
+3. 建action
 ```yaml
 name: Tests
 
