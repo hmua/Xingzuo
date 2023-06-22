@@ -76,4 +76,5 @@ jobs:
 build失败，无可用信息。
 4. `_config.yml`：`baseurl: "/tjda4"`，build失败，无可用信息。
 试了一下gh-pages classic，可以生成。
+5. Gemfile（内容略）
 
