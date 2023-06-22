@@ -49,12 +49,10 @@ defaults:
 3. 建action
 	```yaml
 	name: Tests
-	
 	on:
 	  push:
 	    branches:
 	      - main
-	
 	jobs:
 	  github-pages:
 	    runs-on: ubuntu-latest
