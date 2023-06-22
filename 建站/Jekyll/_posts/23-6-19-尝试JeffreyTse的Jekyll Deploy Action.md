@@ -73,4 +73,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         jekyll_src: './'
 ```
-build失败。
+build失败，无可用信息。
