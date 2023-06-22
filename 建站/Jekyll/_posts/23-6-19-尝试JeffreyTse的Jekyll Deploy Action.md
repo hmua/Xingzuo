@@ -41,3 +41,33 @@ defaults:
 1. md文件需要front matter，猜测可以在配置中加`include` md文件，
    或者找gh-pages的配置文件参考
 3. 需要index.md
+
+###### 2023年6月22日
+## 三刷
+1. 创建新项目，带`README.md`
+2. 建action
+```yaml
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/cache@v3
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ secrets.CACHE_VERSION }}-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - uses: jeffreytse/jekyll-deploy-action@v0.4.0
+      with:
+        provider: 'github'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        jekyll_src: './'
+```
