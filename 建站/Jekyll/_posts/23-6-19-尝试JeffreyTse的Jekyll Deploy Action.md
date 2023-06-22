@@ -74,3 +74,5 @@ jobs:
         jekyll_src: './'
 ```
 build失败，无可用信息。
+4. `_config.yml`：`baseurl: "/tjda4"`
+
