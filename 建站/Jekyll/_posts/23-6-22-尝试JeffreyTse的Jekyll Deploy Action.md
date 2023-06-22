@@ -84,4 +84,4 @@ build失败，无可用信息。
 2. 关闭*Read and write permissions*，不能更新`gh-pages`branch了。
 
 #### 其它
-1. 将config `baseurl: "/tjda4"`移至action `jekyll_baseurl: ''`
+1. 将config `baseurl: "/tjda4"`移至action `jekyll_baseurl: '/tjda4'`
