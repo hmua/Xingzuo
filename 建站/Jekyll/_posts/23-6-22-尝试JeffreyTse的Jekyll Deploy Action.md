@@ -82,3 +82,6 @@ build失败，无可用信息。
 #### 确认action权限
 1. 关闭*Allow GitHub Actions to create and approve pull requests*，可build
 2. 关闭*Read and write permissions*，不能更新`gh-pages`branch了。
+
+#### 其它
+1. 将config `baseurl: "/tjda4"`移至action `jekyll_baseurl: ''`
