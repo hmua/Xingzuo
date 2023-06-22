@@ -61,13 +61,13 @@ defaults:
 	    - uses: actions/cache@v3
 	      with:
 	        path: vendor/bundle
-	        key: ${{ runner.os }}-gems-${{ secrets.CACHE_VERSION }}-${{ hashFiles('**/Gemfile.lock') }}
+	        key: ${{'{'}}{ runner.os }}-gems-${{'{'}}{ secrets.CACHE_VERSION }}-${{'{'}}{ hashFiles('**/Gemfile.lock') }}
 	        restore-keys: |
-	          ${{ runner.os }}-gems-
+	          ${{'{'}}{ runner.os }}-gems-
 	    - uses: jeffreytse/jekyll-deploy-action@v0.4.0
 	      with:
 	        provider: 'github'
-	        token: ${{ secrets.GITHUB_TOKEN }}
+	        token: ${{'{'}}{ secrets.GITHUB_TOKEN }}
 	        jekyll_src: './'
 	```
 build失败，无可用信息。
