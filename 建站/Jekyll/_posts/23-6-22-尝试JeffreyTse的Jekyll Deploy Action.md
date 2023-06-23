@@ -89,4 +89,6 @@ build失败，无可用信息。
 #### 尚留问题
 1. gh-pages内建action可以不用`Gemfile`
 
-2. ######
+###### 2023年6月24日
+## 继续完成
+1. 添加[Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme)
