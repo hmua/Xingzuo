@@ -102,4 +102,5 @@ Nova版比MT版，小写字母过于扁长，应该为了更突出大小写的�
 ###### 附
 #### 英文字体的分类法
 [Modern Font Stacks](https://github.com/system-fonts/modern-font-stacks)
-: 分类较多，不认同把Gill Sans Nova和Calibri分到一组，但就分类来说可以参考。
+: 分类较多，不认同把Gill Sans Nova和Calibri分到一组，
+但就分类来说可以参考，尤其有CSS/W3C分类。
