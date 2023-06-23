@@ -98,3 +98,8 @@ Nova版比MT版，小写字母过于扁长，应该为了更突出大小写的�
 感觉 直接对比 会觉得新版质量下降 实际使用中又发觉新版更好
 新版对格式性有些简化 是符合流行趋势
 也像前段说的 好辨认 阅读效率高
+
+###### 附
+#### 英文字体的分类法
+[Modern Font Stacks](https://github.com/system-fonts/modern-font-stacks)
+: 分类较多，不认同把Gill Sans Nova和Calibri分到一组，但就分类来说可以参考。
