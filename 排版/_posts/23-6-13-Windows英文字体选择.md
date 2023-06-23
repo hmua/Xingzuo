@@ -71,6 +71,12 @@ Calibri收小了一些长划 省空间 也省眼 省注意力
 
 Eras ITC其实很像
 
+#### Segoe UI和Calibri的区别也在此
+Segoe UI笔划过散、轮廓外扩，
+会导致相邻的字符视觉上合并成一个，本来一个字符被分成两个。
+例如“oiu”，o右边的笔划、u左边的笔划，和i视觉上更紧密，
+因此Segoe UI更适合界面中的“按钮”等标签、短文本，Calibri更适合正文段落。
+
 # Gill Sans Nova和Calibri很搭
 两个字体的共同点是 突出字符的差异性 而弱化重复性部分
 夸张表现字符特有的 辨识性的方面
@@ -103,4 +109,4 @@ Nova版比MT版，小写字母过于扁长，应该为了更突出大小写的�
 #### 英文字体的分类法
 [Modern Font Stacks](https://github.com/system-fonts/modern-font-stacks)
 : 分类较多，不认同把Gill Sans Nova和Calibri分到一组，
-但就分类来说可以参考，尤其有CSS/W3C分类。
+但主要用来参考分类法，尤其有CSS分类和一般分类的对照。
