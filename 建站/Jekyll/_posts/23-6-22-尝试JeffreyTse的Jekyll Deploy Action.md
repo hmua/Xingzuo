@@ -87,7 +87,7 @@ build失败，无可用信息。
 1. 将config`baseurl: "/tjda4"`移至action`jekyll_baseurl: '/tjda4'`
 
 #### 尚留问题
-1. gh-pages内建action可以不用`Gemfile`
+1. 为什么gh-pages内建action可以不用Gemfile？
 
 ###### 2023年6月24日
 ## 启用theme
