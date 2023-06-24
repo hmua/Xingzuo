@@ -90,5 +90,9 @@ build失败，无可用信息。
 1. gh-pages内建action可以不用`Gemfile`
 
 ###### 2023年6月24日
-## 继续完成
-1. 添加[Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme)
+## 启用theme
+1. 添加[Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme)，build失败
+2. 找个[可用的Gemfile]，从“Jeffrey Tse's Personal Blog”，build通过，
+应该是theme使用到feed、seo这些plugin原Gemfile中没有。
+
+[可用的Gemfile]:https://github.com/jeffreytse/jekyll-jeffreytse-blog/blob/master/Gemfile
