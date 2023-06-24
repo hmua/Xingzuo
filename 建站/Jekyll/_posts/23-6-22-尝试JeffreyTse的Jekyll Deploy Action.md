@@ -92,7 +92,6 @@ build失败，无可用信息。
 ###### 2023年6月24日
 ## 启用theme
 1. 添加[Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme)，build失败
-2. 找个[可用的Gemfile]，从“Jeffrey Tse's Personal Blog”，build通过，
-应该是theme使用到feed、seo这些plugin原Gemfile中没有。
-
+2. 从“Jeffrey Tse's Personal Blog”找到[可用的Gemfile]，build通过，
+应该是theme使用到“jekyll-seo-tag”插件需要在Gemfile中声明。
 [可用的Gemfile]:https://github.com/jeffreytse/jekyll-jeffreytse-blog/blob/master/Gemfile
