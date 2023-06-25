@@ -10,4 +10,4 @@
 : 没有明显增加时间
 
 这段时间做了很多通过[jeffreytse/jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action)升级到Jekyll 4的测试，
-时间会从50s升到1m50s，可以接受，并且应该可以优化。
+升级前后，时间一直很稳定地从50s升到1m50s，可以接受，并且应该可以优化。
