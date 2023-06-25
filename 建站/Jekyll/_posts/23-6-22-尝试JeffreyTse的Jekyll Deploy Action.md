@@ -93,6 +93,6 @@ build失败，无可用信息。
 ## 启用theme
 1. 添加[Jekyll Remote Theme](https://github.com/benbalter/jekyll-remote-theme)，build失败
 2. 从“Jeffrey Tse's Personal Blog”找到[可用的Gemfile]，build通过，
-应该是theme用到“jekyll-seo-tag”插件需要在Gemfile中声明。
+经确认theme用到“jekyll-seo-tag”插件需要在Gemfile中声明，去掉又会失败。
 
 [可用的Gemfile]:https://github.com/jeffreytse/jekyll-jeffreytse-blog/blob/master/Gemfile
