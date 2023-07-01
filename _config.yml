@@ -1,5 +1,5 @@
 title: 星座演进说
-description: 愿常有美好的事发生美好的人身边
+description: 愿美好的事常在美好的人身边
 author:
   name: 欸欸
 
@@ -12,7 +12,7 @@ defaults:
   - scope:
       path: 摘录
     values:
-      description: >
+      description: |-
         摘录、存档；
         存档会整理格式，之后注解，在正文中引用。
 
@@ -23,7 +23,7 @@ timezone: Asia/Shanghai #修正ghpages服务器时区比国内晚导致不马上
 #
 remote_theme: hmua/Customized-Minima
 permalink: /:categories/:year/:i_month/:i_day/:title #网址，不在月日前加零，结尾什么都不加
-#permalink: pretty
+#permalink: pretty #会在结尾加“/”
 
 #对kramdown、GFM语法的选择，影响非常多而复杂，也没有人整理，只能自己边摸索边记录
 #https://github.com/hmua/hmua.github.io/blob/main/建站/Jekyll/_posts/23-5-21-kramdown和GFM设置的影响.md
