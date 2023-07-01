@@ -3,12 +3,6 @@ description: 愿你一切都好
 author:
   name: 欸欸
 
-collections:
-  tweets:
-    tweet: true
-  staff_members:
-    people: true
-
 defaults:
   - scope:
       path: 星座
@@ -21,14 +15,6 @@ defaults:
       description: >
         摘录、存档；
         存档会整理格式，之后注解，在正文中引用。
-  # Journals
-  - scope:
-      path: "_tw/星座/白羊"
-      type: posts
-      #output: false
-    values:
-      permalink: journal/:year/:month/:day/:title
-      category: journals
 
 lang: zh-Hans #会在<html>加lang，和CSS搭配实现中文诗词排版（https://hmua.github.io/排版/2022/9/17/诗词风格排版）
 timezone: Asia/Shanghai #修正ghpages服务器时区比国内晚导致不马上发布（https://hmua.github.io/建站/2022/9/25/在线编辑器使用问题）
@@ -48,7 +34,7 @@ markdown: kramdown
 show_excerpts: true #首页显示节选
 
 titles_from_headings:
-  #strip_title: true #这条什么作用忘了，好像是page标题会重复，现在只用post
+  #strip_title: true #page有“#（h1）”时会重复，暂时不用page，暂时关闭
 
 minima:
   social_links:
