@@ -1,5 +1,5 @@
 title: 星座演进说
-description: 愿你一切都好
+description: 永远有美好的事发生在美好的人身边
 author:
   name: 欸欸
 
@@ -33,8 +33,9 @@ markdown: kramdown
 #模板（主题模板）中使用
 show_excerpts: true #首页显示节选
 
-titles_from_headings:
-  #strip_title: true #page有“#（h1）”时会重复，暂时不用page，暂时关闭
+#page有“#”（h1）时会重复，暂时不用page，暂时关闭
+#titles_from_headings:
+  #strip_title: true
 
 minima:
   social_links:
