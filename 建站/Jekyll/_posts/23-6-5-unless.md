@@ -17,11 +17,10 @@
 - `unless true or true or false`{%unless true or true or false%}{:.t}{%endunless%}
 - `unless true or false or true`{%unless true or false or true%}{:.t}{%endunless%}
 - `unless true or false or false`{%unless true or false or false%}{:.t}{%endunless%}
-- `unless false or true or true`{%unless true or true or true%}{:.t}{%endunless%}
-- `unless false or true or false`{%unless true or true or false%}{:.t}{%endunless%}
-- `unless false or false or true`{%unless true or false or true%}{:.t}{%endunless%}
-- `unless false or false or false`{%unless true or false or false%}{:.t}{%endunless%}
-- `unless false or false or false`{%unless true or false or false%}{:.t}{%endunless%}
+- `unless false or true or true`{%unless false or true or true%}{:.t}{%endunless%}
+- `unless false or true or false`{%unless false or true or false%}{:.t}{%endunless%}
+- `unless false or false or true`{%unless false or false or true%}{:.t}{%endunless%}
+- `unless false or false or false`{%unless false or false or false%}{:.t}{%endunless%}
 {:.s}
 <style>
 .s{color:silver}
