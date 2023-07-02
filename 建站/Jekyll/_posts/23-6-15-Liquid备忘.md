@@ -134,6 +134,15 @@ array的filters支持`.`，string的则不支持。
 `if a.categories|size<=1`×|`if a.categories.size<=1`✓
 `if a.slug|contains:'：'`×|`if a.slug contains'：'`✓
 
+---
+{{'abc.md'|split:'.'}}
+
+---
+{{'abc.md'|split:'.'|last=='md'}}
+
+---
+{%if 'abc.md'|split:'.'|last=='md'%}`if 'abc.md'|split:'.'|last=='md'`{%endif%}
+
 #### contains
 - `if 'abcde' contains 'e'`{%if 'abcde' contains 'e'%}t{%else%}f{%endif%}
 - `if 'abcde' contains 'f'`{%if 'abcde' contains 'f'%}t{%else%}f{%endif%}
