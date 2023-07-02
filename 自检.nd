@@ -1,0 +1,34 @@
+---
+settings:
+  - title: 集，Collections
+    collection: collections
+    sample: posts
+    fields:
+      name: label
+      selective: [name, output, docs, relative_directory, permalink]
+    
+  - title: 贴，Posts
+    collection: posts
+    sample: 测试文章
+    fields:
+      name: slug
+      selective: [date, content, layout, categories]
+---
+{%for s in page.settings%}{%assign l=site[s.collection]-%}
+  ## {{s.title}}
+  {%assign sample=l|find:s.fields.name,s.sample-%}
+  {%assign selective=s.fields.name|concat:s.fields.selective%}
+  
+  {{selective|join:'|'}}
+  -|
+  {%for i in l%}{%for field in selective-%}
+    {%if field=='date'%}{{i[field]|date:'%Y-%m-%d'-}}
+    {%elsif i[field].first-%}
+      {%assign a=i[field]|join:', '|newline_to_br|strip_newlines-%}
+      {%if a.size>50%}[{{a.size}}]{%else%}{{a|replace:'<','&lt;'}}{%endif-%}
+    {%else-%}
+      {%assign a=i[field]|newline_to_br|strip_newlines-%}
+      {%if a.size>50%}({{a.size}}){%else%}{{a|replace:'<','&lt;'}}{%endif-%}
+    {%endif%}|{%endfor%}
+  {%endfor%}
+{%endfor%}
