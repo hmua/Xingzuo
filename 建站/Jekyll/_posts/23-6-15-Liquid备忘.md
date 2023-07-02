@@ -138,13 +138,16 @@ array的filters支持`.`，string的则不支持。
 {{'abc.md'|split:'.'}}
 
 ---
+{{'abc.md'|split:'.'|last}}
+
+---
 {{'abc.md'|split:'.'|last=='md'}}
 
 ---
-{%if 'abc.md'|split:'.'|last == 'md' %}`if 'abc.md'|split:'.'|last=='md'`{%endif%}
+{%if ('abc.md'|split:'.'|last == 'md') %}`if 'abc.md'|split:'.'|last=='md'`{%endif%}
 
 ---
-{%if 'abc.me'|split:'.'|last == 'md' %}`if 'abc.me'|split:'.'|last=='md'`{%endif%}
+{%if ('abc.me'|split:'.'|last == 'md') %}`if 'abc.me'|split:'.'|last=='md'`{%endif%}
 
 #### contains
 - `if 'abcde' contains 'e'`{%if 'abcde' contains 'e'%}t{%else%}f{%endif%}
