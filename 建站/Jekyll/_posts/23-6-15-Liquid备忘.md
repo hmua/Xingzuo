@@ -128,6 +128,8 @@ array的filters支持`.`，string的则不支持。
 {{n|map:'floor'}}
 
 ### if/unless
+只支持“.”，不支持“|”，间接说明只支持`get()`，不支持传参；
+“contains”则是关键字，不加“.”也不加“|”。
 
 `if a.categories|size<=1`×|`if a.categories.size<=1`✓
 `if a.slug|contains:'：'`×|`if a.slug contains'：'`✓
